@@ -2,7 +2,8 @@ public
 resources
 .hugo_build.lock
 *
+!.git
 !/content/
 !/content/post/
 !/content/post/*
-!.git
+!README.md
