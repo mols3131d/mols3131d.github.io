@@ -1,6 +1,14 @@
 # Rename this file to languages.toml to enable multilingual support
+
 [en]
 languageName = "English"
 languagedirection = "ltr"
-title = "Example Site"
+title = "mols3131d.github.io"
 weight = 1
+
+
+[ko]
+languageName = "한국어"
+languagedirection = "ltr"
+title = "mols3131d.github.io"
+weight = 2
