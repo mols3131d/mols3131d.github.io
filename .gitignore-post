@@ -1,0 +1,8 @@
+public
+resources
+.hugo_build.lock
+*
+!/content/
+!/content/post/
+!/content/post/*
+!.git
