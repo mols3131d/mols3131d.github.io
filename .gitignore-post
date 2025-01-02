@@ -1,9 +1,0 @@
-public
-resources
-.hugo_build.lock
-*
-!.git
-!/content/
-!/content/post/
-!/content/post/*
-!README.md
