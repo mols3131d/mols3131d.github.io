@@ -1,17 +1,17 @@
 ---
-pin: false
-title: 로컬 폴더에 git remote하는 방법
-aliases: []
-date: 2025-01-18T19:33:32+09:00
-lastmod: 2025-01-18T19:33:32+09:00
-description: 로컬 폴더를 통해 git을 사용하는 방법과 Bare Repository에 대한 간단한 설명.
-tags:
-    - template
 draft: false
+title: 로컬 폴더에 git remote하는 방법
+aliases: 
+date: 2025-01-18T19:33:32+09:00
+lastmod: ""
+expiryDate: 
+summary: Git Bare Repository
+description: 로컬 폴더를 통해 git을 사용하는 방법과 Bare Repository에 대한 간단한 설명.
 categories:
-    - Others
-keywords:
-image:
+  - Others
+tags:
+  - Git
+image: 
 math: false
 ---
 

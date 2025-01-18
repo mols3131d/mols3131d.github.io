@@ -1,22 +1,20 @@
 ---
-pin: false
+draft: true
 title: requirements.txt 대신 Poetry를 사용해보기
-aliases:
+aliases: 
 date: 2025-01-06T18:14:04+09:00
-lastmod:
-description: New Post
-tags:
-    - Python
-draft: True
+lastmod: 
+expiryDate: 
+summary: 
+description: Python 프로젝트에서 `requirements.txt`로 의존성 관리는 부족하다면, Poetry로 대신할 수 있습니다. 이 글에서는 Poetry로 `requirements.txt`를 대신할 수준의 간단한 실습기를 담았습니다.
 categories:
-    - Others
-keywords:
-image:
+  - Others
+tags:
+  - Python
+  - Poetry
+image: 
 math: false
 ---
-
-Python 프로젝트에서 `requirements.txt`로 의존성 관리는 부족하다면, Poetry로 대신할 수 있습니다. 이 글에서는 Poetry로 `requirements.txt`를 대신할 수준의 간단한 실습기를 담았습니다.
-
 # [Poetry](https://python-poetry.org/)
 
 > Python packaging and dependency management made easy
