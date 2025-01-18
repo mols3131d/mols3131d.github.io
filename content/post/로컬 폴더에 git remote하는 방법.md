@@ -1,23 +1,23 @@
 ---
 draft: false
 title: 로컬 폴더에 git remote하는 방법
-aliases: 
+aliases:
 date: 2025-01-18T19:33:32+09:00
 lastmod: ""
-expiryDate: 
-summary: Git Bare Repository
-description: 로컬 폴더를 통해 git을 사용하는 방법과 Bare Repository에 대한 간단한 설명.
+expiryDate:
+summary:
+description: Bare Repository로 깃허브같은 서비스가 아니라 로컬 파일을 사용하는 방법
 categories:
-  - Others
+    - Others
 tags:
-  - Git
-image: 
+    - Git
+image:
 math: false
 ---
 
 # 로컬 폴더에 git remote하는 방법
 
-Arc 브라우저를 사용하다가 최근 Zen 브라우저를 사용하고 있다. 여러 이유로 Zen을 쓰고 있지만, Arc에서 지원하던 탭 동기화 기능이 Zen은 지원하지 않아서 많은 불편함이 있었다. 그래서 프로필 데이터에서 탭 정보를 가지고 있는 데이터를 찾고 그것을 동기화하려고 한다. 이 글에서 적을 내용은 이 과정에서 알게된 깃허브 같은 서비스가 아니라 로컬 폴더에 remote하여 사용하는 방법을 적어둔다.
+Arc 브라우저를 사용하다가 최근 Zen 브라우저를 사용하고 있다. 여러 이유로 Zen을 쓰고 있지만, Arc에서 지원하던 탭 동기화 기능이 Zen은 지원하지 않아서 많은 불편함이 있었다. 그래서 프로필 데이터에서 탭 정보를 가지고 있는 데이터를 찾고 그것을 동기화하려고 한다. 이 과정에서 알게된 Git 사용법을 정리하려고 한다. 이 글에서는 Bare Repository로 깃허브같은 서비스가 아니라 로컬 파일을 사용하는 방법을 적어둔다.
 
 ## Bare Repository
 
