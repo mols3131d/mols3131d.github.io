@@ -1,7 +1,5 @@
-content/post/.trash
-content/post/.obsidian
-content/post/.vaultexplorer
-content/post/__utils__
+.trash
+.vaultexplorer
 
 public
 resources

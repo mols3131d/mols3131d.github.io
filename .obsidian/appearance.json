@@ -1,0 +1,11 @@
+{
+  "interfaceFontFamily": "Freesentation 5,Pretendard GOV Variable",
+  "monospaceFontFamily": "구름 산스 코드 400,Cascadia Code NF",
+  "textFontFamily": "Pretendard GOV Variable",
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "accentColor": "",
+  "cssTheme": "Things",
+  "showViewHeader": true
+}

@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "d8954498bb2ce0a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2823b9ab6556f3f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0064920ae23f3a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "__util__/template/New POST (Hugo).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "New POST (Hugo)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1487fe2906d9fcdb",
+    "type": "split",
+    "children": [
+      {
+        "id": "44fd3653404ddcd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bab0719a0f29522b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "ff9e04a039ef51c6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 306.5
+  },
+  "right": {
+    "id": "4f4898e0640cda3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2027b82dda004435",
+        "type": "tabs",
+        "dimension": 52.51141552511416,
+        "children": [
+          {
+            "id": "4c73098c93015d5d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "247e2f08d9c717cb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "769575801486e5a1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4e12fd60f92fb26c",
+        "type": "tabs",
+        "dimension": 47.48858447488584,
+        "children": [
+          {
+            "id": "806ab6c66780d661",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "requirements.txt 대신 Poetry를 사용해보기.md"
+              },
+              "icon": "lucide-list",
+              "title": "requirements.txt 대신 Poetry를 사용해보기 개요"
+            }
+          },
+          {
+            "id": "f536ef7d2ea12d8a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. PROJECT/Python Crawler 프로그램 만들기/2. httpx - HTTP 통신 Python 라이브러리.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2. httpx - HTTP 통신 Python 라이브러리의 나가는 링크"
+            }
+          },
+          {
+            "id": "2caccb6679bef953",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. PROJECT/Python Crawler 프로그램 만들기/2. httpx - HTTP 통신 Python 라이브러리.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2. httpx - HTTP 통신 Python 라이브러리의 백링크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "zk-prefixer:새로운 유니크 노트 생성": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false
+    }
+  },
+  "active": "b0064920ae23f3a4",
+  "lastOpenFiles": [
+    "content/post/로컬 폴더에 git remote하는 방법.md",
+    "content/post/Git. warning：LF will be replaced by CRLF.md",
+    "content/post/requirements.txt 대신 Poetry를 사용해보기.md",
+    "content/post/Boruta Feature Selection.md",
+    "__util__/template/New POST (Hugo).md",
+    "content/post/_index.md",
+    "content/categories/Data_Sci/_index.md",
+    "public/categories/data_sci/page/1/index.html",
+    "public/categories/data_sci/page/1",
+    "public/categories/data_sci/page",
+    "public/categories/data_sci/index.html",
+    "public/categories/data_sci/index.xml",
+    "public/categories/data_sci",
+    "content/categories/Computer_Sci/_index.md",
+    "Git. warning：LF will be replaced by CRLF.md",
+    "requirements.txt 대신 Poetry를 사용해보기.md",
+    "로컬 폴더에 git remote하는 방법.md",
+    "__utils__/templates/New POST (Hugo).md",
+    "Boruta Feature Selection.md",
+    "Git 레포지토리 소유권 문제 (is owned by builtin administrators).md",
+    "2025-01-19.md",
+    "_index.md",
+    "2. AREA-Low/POST/requirements.txt 대신 Poetry를 사용해보기.md",
+    "2. AREA-Low/POST/로컬 폴더에 git remote하는 방법.md",
+    "__utils__/asset/강릉명륜고등학교.webp",
+    "__utils__/asset",
+    "ass",
+    "3. RESOURCE/Crawler.md",
+    "__utils__/asset/R_logo.svg",
+    "vscode extension.md",
+    "2. AREA-Low/POST",
+    "1. PROJECT/부동산 허위매물 분류 해커톤：가짜를 색출하라!/README.md",
+    "1. PROJECT/Python Web Scraping 프로그램 만들기/0. 서론.md",
+    "__utils__/templates/New NOTE.md",
+    "Untitled 1.loom",
+    "__utils__/templates/__index__.md",
+    "1. PROJECT/외주포트폴리오/인터넷 등기소 스크래핑/인터넷 등기소 스크래핑.md",
+    "1. PROJECT/외주포트폴리오/인터넷 등기소 스크래핑/인터넷 등기소 스크래핑 결과물.png",
+    "1. PROJECT/Python Web Scraping 프로그램 만들기/1. Web Scraping.md",
+    "1. PROJECT/외주포트폴리오/인터넷 등기소 스크래핑/tn 인터넷 등기소 스크래핑.png",
+    "1. PROJECT/Python Web Scraping 프로그램 만들기/Example Domain.png",
+    "1. PROJECT/디시인사이드 크롤링 외주 프로젝트/chat/Screenshot+2024-10-12+at+2.25.36 PM.png",
+    "무제 파일.canvas",
+    "2. AREA-Low/계정 관리/__utils__/asset/avatar.jpg",
+    "02. AREA-Low/계정 관리/__utils__/asset/mols3131d - 복사본.jpg",
+    "1. PROJECT/디시인사이드 크롤링 외주 프로젝트/__utils__/Screenshot+2024-10-12+at+2.25.36 PM.png"
+  ]
+}

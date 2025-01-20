@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Pin": "checkbox",
+    "Date": "date",
+    "Date_end": "date",
+    "categories": "multitext",
+    "keywords": "multitext",
+    "image": "multitext",
+    "lastmod": "datetime",
+    "expiryDate": "date"
+  }
+}

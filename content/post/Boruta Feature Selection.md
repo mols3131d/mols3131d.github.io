@@ -4,12 +4,12 @@ title: Boruta Feature Selection
 aliases:
   - Boruta, 보루타, 보루타 특성 선택
 date: 2025-01-15
-lastmod: 
+lastmod: 2025-01-21
 expiryDate: 
 summary: 
 description: Boruta 알고리즘을 활용한 Feature Selection
 categories:
-  - DataSci
+  - Data_Sci
 tags:
   - feature_selection
 image: 
