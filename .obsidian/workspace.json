@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/로컬 폴더에 git remote하는 방법.md",
-                "mode": "preview",
+                "file": "content/post/Git. warning：LF will be replaced by CRLF.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "로컬 폴더에 git remote하는 방법"
+              "title": "Git. warning：LF will be replaced by CRLF"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/로컬 폴더에 git remote하는 방법.md"
+                "file": "content/post/Git. warning：LF will be replaced by CRLF.md"
               },
               "icon": "lucide-list",
-              "title": "로컬 폴더에 git remote하는 방법 개요"
+              "title": "Git. warning：LF will be replaced by CRLF 개요"
             }
           },
           {
@@ -201,11 +201,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bab0719a0f29522b",
+  "active": "b0064920ae23f3a4",
   "lastOpenFiles": [
-    "content/post/requirements.txt 대신 Poetry를 사용해보기.md",
     "content/post/Boruta Feature Selection.md",
     "content/post/Git. warning：LF will be replaced by CRLF.md",
+    "content/post/requirements.txt 대신 Poetry를 사용해보기.md",
     "content/post/로컬 폴더에 git remote하는 방법.md",
     "__util__/template/New POST (Hugo).md",
     "public/categories/computer_sci/page/1/index.html",

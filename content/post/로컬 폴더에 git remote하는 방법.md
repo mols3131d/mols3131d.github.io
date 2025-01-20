@@ -3,7 +3,7 @@ draft: false
 title: 로컬 폴더에 git remote하는 방법
 aliases:
 date: 2025-01-18T19:33:32+09:00
-lastmod: ""
+lastmod: 
 expiryDate:
 summary:
 description: Bare Repository로 깃허브같은 서비스가 아니라 로컬 파일을 사용하는 방법
