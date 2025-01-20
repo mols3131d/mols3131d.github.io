@@ -15,6 +15,7 @@ lastUpdated = "2006-01-02"
 [sidebar]
 emoji = "⏩"
 subtitle = "blog"
+compact = false
 
 [sidebar.avatar]
 enabled = true
