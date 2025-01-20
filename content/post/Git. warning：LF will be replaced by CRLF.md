@@ -2,7 +2,7 @@
 draft: false
 title: Git. warning：LF will be replaced by CRLF
 aliases: 
-date: 2025-01-18
+date: 2025-01-18+09:00
 lastmod: 
 expiryDate: 
 summary: 
