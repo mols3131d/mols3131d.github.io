@@ -58,3 +58,5 @@ Boruta 알고리즘은 랜덤 포레스트를 기반으로 하는 특성 선택 
 [github.com/scikit-learn-contrib/boruta_py](https://github.com/scikit-learn-contrib/boruta_py?tab=readme-ov-file)
 
 [BorutaPy | danielhomola.com](https://danielhomola.com/feature%20selection/phd/borutapy-an-all-relevant-feature-selection-method/)
+
+---

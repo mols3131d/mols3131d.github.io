@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Git. warning：LF will be replaced by CRLF.md",
+                "file": "content/post/requirements.txt 대신 Poetry를 사용해보기.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Git. warning：LF will be replaced by CRLF"
+              "title": "requirements.txt 대신 Poetry를 사용해보기"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Git. warning：LF will be replaced by CRLF.md"
+                "file": "content/post/requirements.txt 대신 Poetry를 사용해보기.md"
               },
               "icon": "lucide-list",
-              "title": "Git. warning：LF will be replaced by CRLF 개요"
+              "title": "requirements.txt 대신 Poetry를 사용해보기 개요"
             }
           },
           {
@@ -203,11 +203,11 @@
   },
   "active": "b0064920ae23f3a4",
   "lastOpenFiles": [
-    "content/post/Boruta Feature Selection.md",
     "content/post/Git. warning：LF will be replaced by CRLF.md",
-    "content/post/requirements.txt 대신 Poetry를 사용해보기.md",
+    "content/post/Boruta Feature Selection.md",
     "content/post/로컬 폴더에 git remote하는 방법.md",
     "__util__/template/New POST (Hugo).md",
+    "content/post/requirements.txt 대신 Poetry를 사용해보기.md",
     "public/categories/computer_sci/page/1/index.html",
     "public/categories/computer_sci/page/1",
     "public/categories/computer_sci/page",
