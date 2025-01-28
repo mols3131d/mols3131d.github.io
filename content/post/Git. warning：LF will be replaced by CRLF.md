@@ -1,18 +1,19 @@
 ---
 draft: false
 title: Git. warning：LF will be replaced by CRLF
-aliases: 
+aliases: null
 date: 2025-01-18
-lastmod: 
-expiryDate: 
-summary: 
-description: 
+lastmod: null
+expiryDate: null
+summary: null
+description: null
 categories:
   - Others
 tags:
   - Git
-image: 
+image: null
 math: false
+slug: git-warning：lf-replaced-crlf
 ---
 
 # 경고 발생 상황
