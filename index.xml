@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mols</title><link>https://mols3131d.github.io/</link><description>Recent content on mols</description><generator>Hugo -- gohugo.io</generator><language>ko-KR</language><lastBuildDate>Tue, 21 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mols3131d.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>로컬 폴더에 git remote하는 방법</title><link>https://mols3131d.github.io/p/%EB%A1%9C%EC%BB%AC-%ED%8F%B4%EB%8D%94%EC%97%90-git-remote%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</link><pubDate>Sat, 18 Jan 2025 19:33:32 +0900</pubDate><guid>https://mols3131d.github.io/p/%EB%A1%9C%EC%BB%AC-%ED%8F%B4%EB%8D%94%EC%97%90-git-remote%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid><description>&lt;h1 id="로컬-폴더에-git-remote하는-방법">로컬 폴더에 git remote하는 방법
+&lt;/h1>&lt;p>Arc 브라우저를 사용하다가 최근 Zen 브라우저를 사용하고 있다. 여러 이유로 Zen을 쓰고 있지만, Arc에서 지원하던 탭 동기화 기능이 Zen은 지원하지 않아서 많은 불편함이 있었다. 그래서 프로필 데이터에서 탭 정보를 가지고 있는 데이터를 찾고 그것을 동기화하려고 한다. 이 과정에서 알게된 Git 사용법을 정리하려고 한다. 이 글에서는 Bare Repository로 깃허브같은 서비스가 아니라 로컬 파일을 사용하는 방법을 적어둔다.&lt;/p>
+&lt;h2 id="bare-repository">Bare Repository
+&lt;/h2>&lt;blockquote>
+&lt;p>[Prompt]&lt;/p>
+&lt;p>git의 bare 저장소에서 bare의 의미&lt;/p>
+&lt;p>[Google Gemini 2.0 Flash Experimental]&lt;/p>
+&lt;p>&amp;ldquo;bare&amp;quot;라는 단어는 &amp;ldquo;벌거벗은&amp;rdquo;, &amp;ldquo;아무것도 없는&amp;quot;이라는 뜻을 가지고 있습니다. Git에서 &amp;ldquo;bare 저장소&amp;quot;라고 할 때, 이는 작업 디렉토리(Working Directory)가 없는 저장소를 의미합니다. ……&lt;/p>
+&lt;/blockquote>
+&lt;p>Bare Repository는 코드를 공유하고 협업할 수 있도록 중앙 집중적인 저장소이다.&lt;/p>
+&lt;p>(git init 명령어로 생성된 저장소는 Non-bare repository, 일반 저장소로 불리며, 작업용 저장소이다.)&lt;/p>
+&lt;h2 id="bare-repository-생성하고-remote하기">Bare Repository 생성하고, remote하기
+&lt;/h2>&lt;p>C 드라이브의 두 폴더를 통해 설명한다.&lt;/p>
+&lt;ul>
+&lt;li>C
+&lt;ul>
+&lt;li>repositories&lt;/li>
+&lt;li>repositories_2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ol>
+&lt;li>
+&lt;p>Bare Repository를 git init &amp;ndash;bare 명령어로 생성한다.&lt;/p>
+&lt;p>repositories\new_project.git라는 폴더로 생성된다. Bare Repository의 이름에 .git을 붙히는 것은 관행으로 보인다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-PowerShell" data-lang="PowerShell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">PS &lt;/span>&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repositories&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">git&lt;/span> &lt;span class="n">init&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">-bare&lt;/span> &lt;span class="s2">&amp;#34;new_project.git&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Initialized&lt;/span> &lt;span class="n">empty&lt;/span> &lt;span class="n">Git&lt;/span> &lt;span class="n">repository&lt;/span> &lt;span class="k">in&lt;/span> &lt;span class="n">C:&lt;/span>&lt;span class="p">/&lt;/span>&lt;span class="n">repositories&lt;/span>&lt;span class="p">/&lt;/span>&lt;span class="n">new_project&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">git&lt;/span>&lt;span class="p">/&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Non-Bare Repository를 생성한다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-PowerShell" data-lang="PowerShell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">PS &lt;/span>&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repositories_2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">mkdir&lt;/span> &lt;span class="n">new_project&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">PS &lt;/span>&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repositories_2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="nb">cd &lt;/span>&lt;span class="n">new_project&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">PS &lt;/span>&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repositories_2&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">new_project&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">git&lt;/span> &lt;span class="n">init&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Non-Bare Repository를 Bare Repository와 연결한다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-PowerShell" data-lang="PowerShell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">PS &lt;/span>&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repositories_2&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">new_project&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">git&lt;/span> &lt;span class="n">remote&lt;/span> &lt;span class="n">add&lt;/span> &lt;span class="n">origin&lt;/span> &lt;span class="s2">&amp;#34;C:\repositoies\new_project.git&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">PS &lt;/span>&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repositories_2&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">new_project&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">git&lt;/span> &lt;span class="n">remote&lt;/span> &lt;span class="n">-v&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">origin&lt;/span> &lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repositoies&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">new_project&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">git&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">fetch&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">origin&lt;/span> &lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repositoies&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">new_project&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">git&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">push&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;h2 id="reference">Reference
+&lt;/h2>&lt;p>&lt;a class="link" href="https://thehorrors.org.uk/snippets/git-local-filesystem-remotes/" target="_blank" rel="noopener"
+>https://thehorrors.org.uk/snippets/git-local-filesystem-remotes/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/" target="_blank" rel="noopener"
+>https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.reddit.com/r/git/comments/6ncejs/comment/dk8ixyq/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button" target="_blank" rel="noopener"
+>https://www.reddit.com/r/git/comments/6ncejs/comment/dk8ixyq/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button&lt;/a>&lt;/p>
+&lt;hr></description></item><item><title>Git. warning：LF will be replaced by CRLF</title><link>https://mols3131d.github.io/p/git-warninglf-replaced-crlf/</link><pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate><guid>https://mols3131d.github.io/p/git-warninglf-replaced-crlf/</guid><description>&lt;h1 id="경고-발생-상황">경고 발생 상황
+&lt;/h1>&lt;p>git add . 명령어를 실행 할 때, 경고가 나타났다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-PowerShell" data-lang="PowerShell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">PS &lt;/span>&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repository&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">git&lt;/span> &lt;span class="n">add&lt;/span> &lt;span class="p">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">warning&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="k">in&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">working&lt;/span> &lt;span class="nb">copy &lt;/span>&lt;span class="n">of&lt;/span> &lt;span class="s1">&amp;#39;.gitignore&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LF&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">be&lt;/span> &lt;span class="n">replaced&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">CRLF&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">next&lt;/span> &lt;span class="n">time&lt;/span> &lt;span class="n">Git&lt;/span> &lt;span class="n">touches&lt;/span> &lt;span class="n">it&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">warning&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="k">in&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">working&lt;/span> &lt;span class="nb">copy &lt;/span>&lt;span class="n">of&lt;/span> &lt;span class="s1">&amp;#39;Cargo.lock&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LF&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">be&lt;/span> &lt;span class="n">replaced&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">CRLF&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">next&lt;/span> &lt;span class="n">time&lt;/span> &lt;span class="n">Git&lt;/span> &lt;span class="n">touches&lt;/span> &lt;span class="n">it&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">warning&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="k">in&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">working&lt;/span> &lt;span class="nb">copy &lt;/span>&lt;span class="n">of&lt;/span> &lt;span class="s1">&amp;#39;Cargo.toml&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LF&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">be&lt;/span> &lt;span class="n">replaced&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">CRLF&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">next&lt;/span> &lt;span class="n">time&lt;/span> &lt;span class="n">Git&lt;/span> &lt;span class="n">touches&lt;/span> &lt;span class="n">it&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">warning&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="k">in&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">working&lt;/span> &lt;span class="nb">copy &lt;/span>&lt;span class="n">of&lt;/span> &lt;span class="s1">&amp;#39;src/main.rs&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LF&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">be&lt;/span> &lt;span class="n">replaced&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">CRLF&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">next&lt;/span> &lt;span class="n">time&lt;/span> &lt;span class="n">Git&lt;/span> &lt;span class="n">touches&lt;/span> &lt;span class="n">it&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="경고-설명">경고 설명
+&lt;/h1>&lt;p>윈도우 환경에서 Git을 사용할 때 흔히 발생하는 줄 바꿈에 관한 경고이다. 파일들이 줄 바꿈을 LF 문자로 표현하고 있지만, 사용자의 시스템은 줄 바꿈으로 CRLF 문자로 표현하고 있다. 그래서 Git이 이러한 파일을 저장소에 추가할 때 LF에서 CRLF로 변환한다는 것으로 보인다.&lt;/p>
+&lt;ul>
+&lt;li>LF(Line Feed): 유닉스 에서 사용되는 줄 바꿈 문자&lt;/li>
+&lt;li>CR(Carriage Return): 고전적인 타자기에서 캐리지를 맨 앞으로 옮기는 데 사용되었던 문자&lt;/li>
+&lt;li>CRLF(Carriage Return Line Feed): 윈도우에서 사용되는 줄 바꿈 문자&lt;/li>
+&lt;/ul>
+&lt;h1 id="경고-조치">경고 조치
+&lt;/h1>&lt;p>Git의 core.autocrlf 옵션을 변경했다.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-PowerShell" data-lang="PowerShell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">PS &lt;/span>&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">repository&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">git&lt;/span> &lt;span class="n">config&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">-global&lt;/span> &lt;span class="n">core&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">autocrlf&lt;/span> &lt;span class="n">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h1 id="reference">Reference
+&lt;/h1>&lt;p>&lt;a class="link" href="https://betterstack.com/community/questions/lf-replaced-by-crlf-why/" target="_blank" rel="noopener"
+>https://betterstack.com/community/questions/lf-replaced-by-crlf-why/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://velog.io/@realzu/Git-LF-will-be-replaced-by-CRLF-in-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EB%B2%95" target="_blank" rel="noopener"
+>https://velog.io/@realzu/Git-LF-will-be-replaced-by-CRLF-in-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EB%B2%95&lt;/a>&lt;/p>
+&lt;hr></description></item><item><title>Boruta Feature Selection</title><link>https://mols3131d.github.io/p/boruta-feature-selection/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://mols3131d.github.io/p/boruta-feature-selection/</guid><description>&lt;h1 id="boruta-feature-selection">Boruta Feature Selection
+&lt;/h1>&lt;p>특성 선택은 효율적인 ML을 위해 매우 중요하다. 불필요하거나 관련 없는 특성을 제거함으로써 모델의 성능을 향상시키고, 과적합을 방지하며, 계산 비용을 줄일 수 있다. 이를 위해 다양한 특성 선택 방법론들이 연구되었으며, 그 중 랜덤포레스트의 특성 중요도를 활용하는 방법론도 사용된다. Boruta 알고리즘은 랜덤 포레스트 기반의 방법론으로, 랜덤 포레스트 특성 중요도의 한계를 극복하기 위해 특성 선택 방법이다.&lt;/p>
+&lt;h2 id="랜덤-포레스트-특성-중요도">랜덤 포레스트 특성 중요도
+&lt;/h2>&lt;p>랜덤 포레스트는 앙상블 학습 방법 중 하나로, 여러 개의 결정 트리를 사용하여 분류나 회귀 분석을 수행하는 알고리즘이다. 각 트리가 학습될 때, 어떤 특성을 사용하여 분기를 수행했을 때 불순도가 얼마나 감소하는지를 측정하여 특성 중요도를 계산하는데, 이를 가지고 모델 예측에 얼마나 큰 영향을 미치는지를 나타내는 지표로 활용할 수 있다.&lt;/p>
+&lt;p>랜덤 포레스트 특성 중요도로 특성을 선택하는 것에는 몇 가지 한계가 존재한다. 무작위적인 변동으로 인해 특성 중요도 값이 불안정할 수 있다. 심지어, 랜덤 포레스트에서 사용하는 Z 점수는 분포가 정규 분포를 따르지 않기 때문에 특성 중요도의 통계적 유의성을 가진다고 볼 수 없다.&lt;/p>
+&lt;h2 id="boruta-알고리즘">Boruta 알고리즘
+&lt;/h2>&lt;p>Boruta 알고리즘은 랜덤 포레스트를 기반으로 하는 특성 선택 방법이다. 랜덤 포레스트 특성 중요도는 Z 스코어로 직접적인 측정이 어기 때문에 Boruta 알고리즘에서는 각 속성에 대해 그림자 속성을 생성하고, 어떤 속성이 실제로 중요한지 결정하기 위해 참조된다. 즉, &amp;ldquo;원본 특성보다 무작위로 생성된 &amp;lsquo;섀도우 특성&amp;rsquo;이 모델 생성에 더 큰 영향을 주지 못한다면, 해당 원본 특성은 중요하지 않다&amp;quot;는 것이다.&lt;/p>
+&lt;blockquote>
+&lt;p>간단히 말해, Boruta는 랜덤 포레스트 분류기의 기본을 이루는 동일한 아이디어, 즉 시스템에 무작위성을 추가하고 무작위화된 샘플 앙상블로부터 결과를 수집함으로써 무작위 변동과 상관관계의 오해의 소지가 있는 영향을 줄일 수 있다는 아이디어를 기반으로 합니다. 여기서 이 추가적인 무작위성은 어떤 속성이 정말로 중요한지에 대한 더 명확한 시각을 제공할 것입니다.&lt;/p>
+&lt;p>{refer: &lt;a class="link" href="https://doi.org/10.18637/jss.v036.i11" target="_blank" rel="noopener"
+>Feature Selection with the Boruta Package&lt;/a>, page: 3}&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>보루타 알고리즘은 다음 단계들로 구성됩니다:&lt;/p>
+&lt;ol>
+&lt;li>모든 변수의 복사본을 추가하여 정보 시스템을 확장합니다. (원래 속성 수가 5개 미만이라도 정보 시스템은 항상 최소 5개의 그림자 속성으로 확장됩니다.)&lt;/li>
+&lt;li>추가된 속성을 섞어 반응 변수와의 상관 관계를 제거합니다.&lt;/li>
+&lt;li>확장된 정보 시스템에서 랜덤 포레스트 분류기를 실행하고 계산된 Z 점수를 수집합니다.&lt;/li>
+&lt;li>그림자 속성 중 최대 Z 점수(MZSA)를 찾은 다음, MZSA보다 높은 점수를 받은 모든 속성에 적중 표시를 합니다.&lt;/li>
+&lt;li>중요도가 결정되지 않은 각 속성에 대해 MZSA와의 양측 검정(two-sided test)을 수행하여 동등성을 검사합니다.&lt;/li>
+&lt;li>MZSA보다 중요도가 유의하게 낮은 속성은 &amp;ldquo;중요하지 않음&amp;quot;으로 간주하고 정보 시스템에서 영구적으로 제거합니다.&lt;/li>
+&lt;li>MZSA보다 중요도가 유의하게 높은 속성은 &amp;ldquo;중요함&amp;quot;으로 간주합니다.&lt;/li>
+&lt;li>모든 그림자 속성을 제거합니다.&lt;/li>
+&lt;li>모든 속성의 중요도가 할당될 때까지, 또는 알고리즘이 사전에 설정된 랜덤 포레스트 실행 횟수 제한에 도달할 때까지 위 절차를 반복합니다.&lt;/li>
+&lt;/ol>
+&lt;p>{refer: &lt;a class="link" href="https://doi.org/10.18637/jss.v036.i11" target="_blank" rel="noopener"
+>Feature Selection with the Boruta Package&lt;/a>, page: 3~4}&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h1 id="reference">Reference
+&lt;/h1>&lt;p>&lt;a class="link" href="https://doi.org/10.18637/jss.v036.i11" target="_blank" rel="noopener"
+>Feature Selection with the Boruta Package&lt;/a>&lt;/p>
+&lt;h1 id="related">Related
+&lt;/h1>&lt;p>&lt;a class="link" href="https://github.com/scikit-learn-contrib/boruta_py?tab=readme-ov-file" target="_blank" rel="noopener"
+>github.com/scikit-learn-contrib/boruta_py&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://danielhomola.com/feature%20selection/phd/borutapy-an-all-relevant-feature-selection-method/" target="_blank" rel="noopener"
+>BorutaPy | danielhomola.com&lt;/a>&lt;/p>
+&lt;hr></description></item><item><title>Archives</title><link>https://mols3131d.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://mols3131d.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://mols3131d.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mols3131d.github.io/links/</guid><description/></item><item><title>Search</title><link>https://mols3131d.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mols3131d.github.io/search/</guid><description/></item></channel></rss>
