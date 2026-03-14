@@ -2,17 +2,25 @@
   "files.exclude": {
     "**/.DS_Store": true,
     ".hugo_build.lock": true,
+    ".devcontainer": true,
+    "LICENSE": true,
 
     // === go ===
     "go.mod": true,
     "go.sum": true,
 
     // === hugo ===
+    "config/": true,
     // "config/_default/": true,
     "resources/": true,
     "public/": true,
     "assets/scss": true,
-    "assets/jsconfig.json": true
+    "assets/jsconfig.json": true,
+
+    // === hugo-theme-stack ===
+    ".github": true
+    // ".github/workflows/update-theme.yml": true,
+    // ".github/workflows/deploy.yml": true
 
     // === front matter cms | vscode extension ===
     // ".frontmatter/": true,
