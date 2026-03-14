@@ -1,16 +1,12 @@
 ---
 title: "Data"
 date: 2023-03-23T00:00:00Z
-description: "Data --- 속성에 따른 - 데이터는 일반적으로 **수치형 데이터(Numerical Data)**와 **범주형 데이터(Categorical Data)**로 구분 - 수치형 데이터는 다시 **연속형 데이터(Continuous Data)**와 **이산형 데이터(Discrete Da..."
+description: "Data"
 categories:
   - DataSci
 tags:
   - legacy
 fmContentType: hugo-content
----
-
-## Data
-
 ---
 
 ## 속성에 따른

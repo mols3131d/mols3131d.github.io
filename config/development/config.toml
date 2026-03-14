@@ -1,7 +1,7 @@
 # Change baseurl before deploy
-baseurl = "https://mols3131d.github.io/"
+baseurl      = "https://mols3131d.github.io/"
 languageCode = "ko-kr"
-title = "mols"
+title        = "mols"
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
@@ -15,4 +15,4 @@ hasCJKLanguage = true
 disqusShortname = "hugo-theme-stack"
 
 [pagination]
-pagerSize = 5
+pagerSize = 10

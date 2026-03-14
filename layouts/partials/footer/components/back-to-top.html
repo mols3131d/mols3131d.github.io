@@ -1,0 +1,30 @@
+<!-- Add back to top button -->
+<script>
+    (function () {
+        function backToTop() {
+            document.documentElement.scrollIntoView({
+                behavior: 'smooth',
+            })
+        }
+
+        function toggleVisibility() {
+            let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            let totopBtn = document.getElementById('back-to-top');
+            if (totopBtn) {
+                if (scrollTop > 200) {
+                    totopBtn.style.display = 'inline';
+                } else {
+                    totopBtn.style.display = 'none';
+                }
+            }
+        }
+
+        window.addEventListener('scroll', toggleVisibility);
+        window.addEventListener('load', toggleVisibility);
+
+        document.getElementById('back-to-top')?.addEventListener('click', function (e) {
+            e.preventDefault();
+            backToTop();
+        });
+    })();
+</script>

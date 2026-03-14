@@ -1,3 +1,72 @@
-/*
-    You can add your own custom styles here.
-*/
+/* Two-column layout for archives page */
+@media (min-width: 1024px) {
+    .article-list--compact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: none;
+        box-shadow: none;
+        gap: 1rem;
+
+        article {
+            background: var(--card-background);
+            border: none;
+            box-shadow: var(--shadow-l2);
+            margin-bottom: 8px;
+            border-radius: 16px;
+        }
+    }
+}
+
+@font-face {
+    font-family: "JetBrains Mono Hangul NL";
+    src: url("/fonts/JetBrainsMonoHangulNL-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+:root {
+    --code-font-family: "JetBrains Mono Hangul NL", monospace;
+}
+
+.chroma .lnt {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.category {
+    .category-label {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        a {
+            border-left: 6px solid;
+            background: var(--card-background);
+            box-shadow: var(--shadow-l1);
+            border-radius: var(--category-border-radius);
+            padding: 8px 15px;
+            color: var(--card-text-color-main);
+            font-size: 1.2rem;
+            transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &:hover {
+                box-shadow: var(--shadow-l2);
+            }
+        }
+    }
+
+    .category-count {
+        margin-left: 10px;
+        color: var(--body-text-color);
+        font-size: 1.1rem;
+        background: var(--body-background);
+        padding: 2px 6px;
+        border-radius: 4px;
+        opacity: 0.8;
+    }
+}

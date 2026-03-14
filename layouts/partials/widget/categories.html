@@ -1,0 +1,19 @@
+{{- $context := .Context -}}
+{{- $params := .Params -}}
+{{- $limit := default 10 $params.limit -}}
+<section class="widget category">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "categories" }}
+    </div>
+    <h2 class="widget-title section-title">{{ T "widget.categoriesCloud.title" }}</h2>
+
+    <div class="category-label">
+        {{ range first $limit $context.Site.Taxonomies.categories.ByCount }}
+        {{- $backgroundColor := .Page.Params.style.background | default "#1e90ff" -}}
+        <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}"
+            style="border-left-color: {{ $backgroundColor }}; filter:saturate(1.7);">
+            {{ .Page.Title }}<span class="category-count">{{ .Count }}</span>
+        </a>
+        {{ end }}
+    </div>
+</section>

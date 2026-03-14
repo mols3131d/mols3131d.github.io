@@ -12,10 +12,10 @@
     // === hugo ===
     // "config/": true,
     // "config/_default/": true,
-    "resources/": true,
-    "public/": true,
-    "assets/scss": true,
-    "assets/jsconfig.json": true,
+    // "resources/": true,
+    // "public/": true,
+    // "assets/scss": true,
+    // "assets/jsconfig.json": true,
 
     // === hugo-theme-stack ===
     ".github": true,

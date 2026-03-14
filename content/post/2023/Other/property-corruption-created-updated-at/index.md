@@ -8,8 +8,9 @@ categories:
   - Document
 tags:
   - blog
+  - legacy
 preview: ""
-draft: true
+draft: false
 math: false
 fmContentType: hugo-content
 ---

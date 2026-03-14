@@ -2,9 +2,9 @@
 title: CompSci
 description: "Computer Science"
 image:
-
+paginate: 20
 # Badge style
 style:
-  background: "#2a9d8f"
+  background: "#264653"
   color: "#fff"
 ---

@@ -1,10 +1,10 @@
 ---
 title: Other
-description: ""
+description: "Other"
 image:
 
 # Badge style
 style:
-  background: "#2a9d8f"
+  background: "#f4a261"
   color: "#fff"
 ---
