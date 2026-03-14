@@ -1,0 +1,24 @@
+# <type>(<scope>): <subject> (Max 50 characters)
+#
+# <type>: [Content] create, update, fix, delete, archive | [Page] config, feat
+#
+# ---------------------------------------------------------
+# Commit Rules:
+# - <subject>는 50자 이내로 작성합니다.
+# - 본문(Body)이나 푸터(Footer)는 작성하지 않습니다.
+#
+# <scope> Guide:
+# - [Content]: 카테고리명을 사용 (예: python, git, info)
+# - [Page]: 개발 영역을 사용 (예: theme, layout, core, cms)
+#
+# [Content Types]
+# create  : 새로운 포스트 작성
+# update  : 기존 포스트 내용 수정 및 보강
+# fix     : 오타 수정, 깨진 링크 수정 등 단순 교정
+# delete  : 포스트 파일 완전 삭제
+# archive : 포스트 비공개(draft) 전환 또는 아카이브 이동
+#
+# [Page Types]
+# config  : Hugo 설정, 테마 파라미터, CMS 설정 변경
+# feat    : 테마 레이아웃 수정, CSS 변경, 신규 기능 추가
+# ---------------------------------------------------------
