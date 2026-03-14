@@ -1,14 +1,14 @@
 ---
 title: "Python3 내장 탐색 방법: dir(), help(), builtins"
-description: "파이썬의 내장 함수인 dir(), help()와 builtins 모듈을 사용하여 객체와 내장 요소를 탐색하는 방법을 알아봅니다."
+description: 파이썬의 내장 함수인 dir(), help()와 builtins 모듈을 사용하여 객체와 내장 요소를 탐색하는 방법을 알아봅니다.
 date: 2024-12-30
 categories:
-  - Others
+  - Other
 tags:
   - python
   - introspection
   - legacy
-preview: 
+preview: null
 draft: false
 math: false
 fmContentType: hugo-content

@@ -3,7 +3,7 @@ title: PowerShell에서 conda activate 실행시키는 방법. conda init powers
 date: 2024-03-28T00:00:00Z
 description: ""
 categories:
-  - Others
+  - Other
 tags:
   - powershell
   - conda

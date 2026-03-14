@@ -1,9 +1,9 @@
 ---
-title: "Python3 Keyword-Only Arguments(키워드 전용 인자)"
+title: Python3 Keyword-Only Arguments(키워드 전용 인자)
 date: 2025-04-10T00:00:00Z
 description: ""
 categories:
-  - Others
+  - Other
 tags:
   - legacy
   - python

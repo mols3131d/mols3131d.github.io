@@ -1,14 +1,14 @@
 ---
 title: "Python3: End of File (EOF) 처리 방법"
-description: "파일이나 입력 스트림의 끝(EOF)을 감지하고 파이썬에서 이를 처리하는 다양한 방식(try-except, readlines)을 알아봅니다."
+description: 파일이나 입력 스트림의 끝(EOF)을 감지하고 파이썬에서 이를 처리하는 다양한 방식(try-except, readlines)을 알아봅니다.
 date: 2024-12-30
 categories:
-  - Others
+  - Other
 tags:
   - python
   - eof
   - legacy
-preview: 
+preview: null
 draft: false
 math: false
 fmContentType: hugo-content

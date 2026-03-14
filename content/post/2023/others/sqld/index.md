@@ -3,7 +3,7 @@ title: SQLD
 date: 2023-10-26T00:00:00Z
 description: "- ㅁㄴㅇ - 문제 PART 1 - 데이터 모델링의 이해 PART 2 - SQL 기본 및 활용 --- --- Appendix Reference See also E**xternal URI**"
 categories:
-  - Others
+  - Other
 tags:
   - legacy
 fmContentType: hugo-content

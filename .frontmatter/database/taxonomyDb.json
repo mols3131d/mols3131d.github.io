@@ -1,1 +1,17 @@
-{"taxonomy":{"categories":["CompSci","DataSci","Others","Tools"],"tags":["feature-selection","git","legacy","machine-learning","python"]}}
+{
+  "taxonomy": {
+    "categories": [
+      "CompSci",
+      "DataSci",
+      "Other",
+      "Tool"
+    ],
+    "tags": [
+      "feature-selection",
+      "git",
+      "legacy",
+      "machine-learning",
+      "python"
+    ]
+  }
+}

@@ -3,7 +3,7 @@ title: DataBase Management System (DBMS, 데이터베이스 관리 시스템)
 date: 2023-04-10T00:00:00Z
 description: "DBMS (DataBase Management System) - 데이터베이스 관리 시스템 - 데이터들의 효율적인 CRUD DBMS 등장 배경 - 이전의 문제점 - 데이터 간의 연관성(Relation)을 만들어내기 어려움. - Stack식 저장으로 데이터 접근이 어려움 - 예시 : ..."
 categories:
-  - Others
+  - Other
 tags:
   - legacy
 fmContentType: hugo-content

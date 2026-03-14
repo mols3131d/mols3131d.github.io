@@ -1,9 +1,9 @@
 ---
 title: "Git: LF will be replaced by CRLF 경고 해결 방법"
-description: "윈도우 환경에서 Git 사용 시 발생하는 줄 바꿈(LF/CRLF) 경고의 원인과 해결 방법을 정리합니다."
+description: 윈도우 환경에서 Git 사용 시 발생하는 줄 바꿈(LF/CRLF) 경고의 원인과 해결 방법을 정리합니다.
 date: 2025-01-18
 categories:
-  - Others
+  - Other
 tags:
   - legacy
   - git

@@ -1,9 +1,9 @@
 ---
-title: "Python3 Positional-Only Arguments(위치 전용 인자)"
+title: Python3 Positional-Only Arguments(위치 전용 인자)
 date: 2025-04-10T00:00:00Z
-description: "Python3 Positional-Only Arguments"
+description: Python3 Positional-Only Arguments
 categories:
-  - Others
+  - Other
 tags:
   - legacy
   - python

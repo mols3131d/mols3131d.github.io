@@ -1,9 +1,9 @@
 ---
 title: SQL (Standard Query Language)
 date: 2023-04-10T00:00:00Z
-description: "SQL은 DBMS에게 요청을 보내는 선언형 질의 언어입니다. 명령형과 선언형의 차이 및 SQL의 기본 개념을 정리합니다."
+description: SQL은 DBMS에게 요청을 보내는 선언형 질의 언어입니다. 명령형과 선언형의 차이 및 SQL의 기본 개념을 정리합니다.
 categories:
-  - Others
+  - Other
 tags:
   - legacy
 fmContentType: hugo-content

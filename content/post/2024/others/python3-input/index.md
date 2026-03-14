@@ -1,14 +1,14 @@
 ---
-title: "Python3 입력(Input) 함수 기초 및 심화"
-description: "Python 3에서 사용자 혹은 파일로부터 데이터를 효율적으로 입력받는 다양한 방법(input, sys.stdin.readline)을 정리합니다."
+title: Python3 입력(Input) 함수 기초 및 심화
+description: Python 3에서 사용자 혹은 파일로부터 데이터를 효율적으로 입력받는 다양한 방법(input, sys.stdin.readline)을 정리합니다.
 date: 2024-12-30
 categories:
-  - Others
+  - Other
 tags:
   - python
   - input
   - legacy
-preview: 
+preview: null
 draft: false
 math: false
 fmContentType: hugo-content

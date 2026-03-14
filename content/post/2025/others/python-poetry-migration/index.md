@@ -1,9 +1,9 @@
 ---
-title: "requirements.txt 대신 Poetry를 사용해보기"
-description: "Python 프로젝트에서 requirements.txt로 의존성 관리가 부족할 때, Poetry로 전환하는 기본 실습 과정을 담았습니다."
+title: requirements.txt 대신 Poetry를 사용해보기
+description: Python 프로젝트에서 requirements.txt로 의존성 관리가 부족할 때, Poetry로 전환하는 기본 실습 과정을 담았습니다.
 date: 2025-01-28
 categories:
-  - Others
+  - Other
 tags:
   - legacy
   - python

@@ -1,14 +1,14 @@
 ---
 title: "Python3 출력 방법: print()와 sys.stdout.write() 비교"
-description: "기본적인 print() 함수와 더 세밀한 제어가 가능한 sys.stdout.write()의 차이점과 사용 사례를 정리합니다."
+description: 기본적인 print() 함수와 더 세밀한 제어가 가능한 sys.stdout.write()의 차이점과 사용 사례를 정리합니다.
 date: 2024-12-30
 categories:
-  - Others
+  - Other
 tags:
   - python
   - output
   - legacy
-preview: 
+preview: null
 draft: false
 math: false
 fmContentType: hugo-content

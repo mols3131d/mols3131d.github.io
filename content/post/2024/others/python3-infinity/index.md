@@ -1,14 +1,14 @@
 ---
-title: "Python3에서 무한대(Infinity) 표현 방법"
-description: "코딩 테스트나 알고리즘 문제 풀이 시 필요한 무한대 값을 Python에서 표현하는 세 가지 방법(float, math, sys)을 비교합니다."
+title: Python3에서 무한대(Infinity) 표현 방법
+description: 코딩 테스트나 알고리즘 문제 풀이 시 필요한 무한대 값을 Python에서 표현하는 세 가지 방법(float, math, sys)을 비교합니다.
 date: 2024-12-30
 categories:
-  - Others
+  - Other
 tags:
   - python
   - infinity
   - legacy
-preview: 
+preview: null
 draft: false
 math: false
 fmContentType: hugo-content

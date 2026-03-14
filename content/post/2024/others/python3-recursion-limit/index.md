@@ -1,14 +1,14 @@
 ---
-title: "Python3 재귀 호출 깊이 제한 및 조정 방법"
-description: "Python의 재귀 호출 제한(Recursion Limit)의 목적과 확인 방법, 그리고 필요 시 이를 조정하는 방법을 알아봅니다."
+title: Python3 재귀 호출 깊이 제한 및 조정 방법
+description: Python의 재귀 호출 제한(Recursion Limit)의 목적과 확인 방법, 그리고 필요 시 이를 조정하는 방법을 알아봅니다.
 date: 2024-12-30
 categories:
-  - Others
+  - Other
 tags:
   - python
   - recursion-limit
   - legacy
-preview: 
+preview: null
 draft: false
 math: false
 fmContentType: hugo-content

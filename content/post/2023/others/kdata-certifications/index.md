@@ -1,9 +1,9 @@
 ---
 title: 한국데이터산업진흥원 자격증 가이드 (ADsP, 빅분기)
 date: 2023-09-19T00:00:00Z
-description: "ADsP(데이터분석 준전문가) 및 빅데이터분석기사 자격증 취득을 위한 과목 요약 및 학습 자료 링크"
+description: ADsP(데이터분석 준전문가) 및 빅데이터분석기사 자격증 취득을 위한 과목 요약 및 학습 자료 링크
 categories:
-  - Others
+  - Other
 tags:
   - certification
   - statistics

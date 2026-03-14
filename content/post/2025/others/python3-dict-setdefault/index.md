@@ -1,9 +1,9 @@
 ---
-title: "Python3 dict.setdefault()"
+title: Python3 dict.setdefault()
 date: 2025-04-10T00:00:00Z
 description: ""
 categories:
-  - Others
+  - Other
 tags:
   - legacy
   - python

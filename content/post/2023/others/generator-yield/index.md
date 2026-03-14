@@ -3,7 +3,7 @@ title: Generator & Yield
 date: 2023-10-17T00:00:00Z
 description: "Generator --- Python에서 generator는 iterator를 생성하는 함수. - Iterator: `next()` 함수를 통해 값을 순차적으로 반환할 수 있는 객체 - List나 tuple 같은 컬렉션은 모든 값을 메모리에 저장하지만, generator는 이와 달..."
 categories:
-  - Others
+  - Other
 tags:
   - legacy
 fmContentType: hugo-content
