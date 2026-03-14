@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Ensemble (앙상블)"
 date: 2023-03-23T00:00:00Z
-description: ""
+description: "앙상블 학습은 여러 개의 약 분류기를 결합하여 강력한 예측 모델을 만드는 기법입니다. 배깅(Bagging)과 부스팅(Boosting)의 개념, 원리, 그리고 주요 차이점을 상세히 비교합니다."
 categories:
   - DataSci
 tags:
@@ -9,7 +9,7 @@ tags:
 fmContentType: hugo-content
 ---
 
-# Ensemble
+## Ensemble
 
 앙상블은 여러 개의 기본 모델을 결합하여 더 성능이 좋고 안정적인 예측 모델을 만드는 방법입니다. 보통 하나의 모델이 가지고 있는 오류를 보완하고, 성능 향상을 목표로 합니다.
 
@@ -19,17 +19,17 @@ fmContentType: hugo-content
 
 앙상블 학습은 여러 개의 결정 트리(Decision Tree)를 결합하여 하나의 결정 트리보다 더 좋은 성능을 내는 머신러닝 기법입니다. 앙상블 학습의 핵심은 여러 개의 약 분류기 (Weak Classifier)를 결합하여 강 분류기(Strong Classifier)를 만드는 것입니다. 그리하여 모델의 정확성이 향상됩니다.
 
-앙상블 학습법에는 두 가지가 있습니다. 배깅(Bagging)과 부스팅(Boosting)입니다. 이를 이해하기 위해서는 부트스트랩(Bootstrap)과 결정 트리(Deicison Tree)에 대한 개념이 선행되어야 합니다. 부트스트랩과 결정 트리에 대해 잘 모르신다면 [(DATA - 12. 부트스트랩(Bootstrap))](https://bkshin.tistory.com/entry/DATA-12?category=1042793)과 [(머신러닝 - 4. 결정 트리(Decision Tree))](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-4-%EA%B2%B0%EC%A0%95-%ED%8A%B8%EB%A6%ACDecision-Tree?category=1057680)를 참고하시기 바랍니다.
+앙상블 학습법에는 두 가지가 있습니다. 배깅(Bagging)과 부스팅(Boosting)입니다. 이를 이해하기 위해서는 부트스트랩(Bootstrap)과 결정 트리(Deicison Tree)에 대한 개념이 선행되어야 합니다.
 
-## **Bagging (배깅, Bootstrap Aggregating)**
+## Bagging (배깅, Bootstrap Aggregating)
 
 - 배깅은 훈련 데이터셋을 복원 추출 방식으로 여러 개의 서브셋(subset)으로 분할하여 각각의 모델을 훈련시킵니다. 독립적인 모델들의 예측값들을 집계(aggregating)하여 최종 결과를 얻습니다. 주로 투표(voting) 또는 평균을 사용하여 결과를 집계합니다.
-    - 장점: 전체 데이터를 사용한 단일 모델보다 오버피팅(과적합)을 줄일 수 있음
-    - 예제: 랜덤 포레스트(Random Forest)는 의사 결정 트리(Decision Tree)를 기본 모델로 사용하여 배깅 방식을 적용한 알고리즘입니다.
+  - 장점: 전체 데이터를 사용한 단일 모델보다 오버피팅(과적합)을 줄일 수 있음
+  - 예제: 랜덤 포레스트(Random Forest)는 의사 결정 트리(Decision Tree)를 기본 모델로 사용하여 배깅 방식을 적용한 알고리즘입니다.
 
 Bagging은 Bootstrap Aggregation의 약자입니다. 배깅은 샘플을 여러 번 뽑아(Bootstrap) 각 모델을 학습시켜 결과물을 집계(Aggregration)하는 방법입니다. 아래 그림을 보겠습니다.
 
-![](https://k.kakaocdn.net/dn/b4wG8O/btqyfYW98AS/YZBtUJy3jZLyuik1R0aGNk/img.png)
+![Bagging concept diagram](bagging-concept.png)
 
 출처: swallow.github.io
 
@@ -41,17 +41,17 @@ Categorical Data일 때, 투표 방식으로 한다는 것은 전체 모델에�
 
 평균으로 집계한다는 것은 말 그대로 각각의 결정 트리 모델이 예측한 값에 평균을 취해 최종 Bagging Model의 예측값을 결정한다는 것입니다.
 
-배깅은 간단하면서도 파워풀한 방법입니다. 배깅 기법을 활용한 모델이 바로 [랜덤 포레스트](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-5-%EB%9E%9C%EB%8D%A4-%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8Random-Forest%EC%99%80-%EC%95%99%EC%83%81%EB%B8%94Ensemble)입니다.
+배깅은 간단하면서도 파워풀한 방법입니다. 배깅 기법을 활용한 모델이 바로 랜덤 포레스트입니다.
 
-## **Boosting (부스팅)**
+## Boosting (부스팅)
 
 - 부스팅은 기본 모델들을 순차적으로 훈련하여 이전 모델의 오류를 보완하는 방식으로 진행됩니다. 훈련 데이터에서 오류 발생을 줄이도록 가중치를 조절하며 학습됩니다.
-    - 장점: 모델의 복잡도가 낮고, 성능이 높아짐
-    - 예제: 에이다부스트(AdaBoost)는 이전 모델에서의 오류 샘플에 가중치를 높여 다음 모델이 잘 분류할 수 있도록 도와주며, 그래디언트 부스팅(Gradient Boosting)은 이전 모델의 오차를 최소화하는 방향으로 모델을 학습시킵니다. XGBoost, LightGBM, CatBoost 등이 그래디언트 부스팅 기반 알고리즘입니다.
+  - 장점: 모델의 복잡도가 낮고, 성능이 높아짐
+  - 예제: 에이다부스트(AdaBoost)는 이전 모델에서의 오류 샘플에 가중치를 높여 다음 모델이 잘 분류할 수 있도록 도와주며, 그래디언트 부스팅(Gradient Boosting)은 이전 모델의 오차를 최소화하는 방향으로 모델을 학습시킵니다.
 
-부스팅은 가중치를 활용하여 약 분류기를 강 분류기로 만드는 방법입니다. 배깅은 Deicison Tree1과 Decision Tree2가 서로 독립적으로 결과를 예측합니다. 여러 개의 독립적인 결정 트리가 각각 값을 예측한 뒤, 그 결과 값을 집계해 최종 결과 값을 예측하는 방식입니다. 하지만 부스팅은 모델 간 팀워크가 이루어집니다. 처음 모델이 예측을 하면 그 예측 결과에 따라 데이터에 가중치가 부여되고, 부여된 가중치가 다음 모델에 영향을 줍니다. 잘못 분류된 데이터에 집중하여 새로운 분류 규칙을 만드는 단계를 반복합니다. 아래 그림을 통해 설명해보겠습니다.
+부스팅은 가중치를 활용하여 약 분류기를 강 분류기로 만드는 방법입니다. 배깅은 Decision Tree1과 Decision Tree2가 서로 독립적으로 결과를 예측합니다. 하지만 부스팅은 모델 간 팀워크가 이루어집니다. 처음 모델이 예측을 하면 그 예측 결과에 따라 데이터에 가중치가 부여되고, 부여된 가중치가 다음 모델에 영향을 줍니다. 잘못 분류된 데이터에 집중하여 새로운 분류 규칙을 만드는 단계를 반복합니다. 아래 그림을 통해 설명해보겠습니다.
 
-![](https://k.kakaocdn.net/dn/kCejr/btqyghvqEZB/9o3rKTEsuSIDHEfelYFJlk/img.png)
+![Boosting concept animation](boosting-concept.png)
 
 출처: Medium (Boosting and Bagging explained with examples)
 
@@ -69,11 +69,10 @@ D1, D2, D3의 Classifier를 합쳐 최종 Classifier를 구할 수 있습니다.
 
 - 스태킹은 여러 개의 기본 모델로부터 얻은 예측 값을 다시 사용하여 새로운 특성(feature)으로 활용하는 방식입니다. 이렇게 얻은 새로운 특성 데이터를 메타 모델(meta-model)에 투입하여 학습시킵니다.
 - 장점: 다양한 모델들의 강점을 활용하여 성능 향상을 추구
-- 예제: 분류 문제에서 서로 다른 알고리즘이 적용된 여러 분류기들(예: 로지스틱 회귀, 서포트 벡터 머신, 랜덤 포레스트)의 예측 값을 이용하여 보다 세밀한 분류를 위한 최종 모델을 학습시키는 것이 하나의 예시입니다.
 
-# 배깅과 부스팅 차이
+## 배깅과 부스팅 차이
 
-![](https://k.kakaocdn.net/dn/bwr6JW/btqygiHRbRk/cy5hbDAPpTjCG7xa6UWxi0/img.png)
+![Bagging vs Boosting comparison](bagging-vs-boosting.png)
 
 출처: swallow.github.io
 
@@ -81,12 +80,11 @@ D1, D2, D3의 Classifier를 합쳐 최종 Classifier를 구할 수 있습니다.
 
 오답에 대해서는 높은 가중치를 부여하고, 정답에 대해서는 낮은 가중치를 부여합니다. 따라서 오답을 정답으로 맞추기 위해 오답에 더 집중할 수 있게 되는 것입니다.
 
-부스팅은 배깅에 비해 error가 적습니다. 즉, 성능이 좋습니다. 하지만 속도가 느리고 오버 피팅이 될 가능성이 있습니다. 그렇다면 실제 사용할 때는 배깅과 부스팅 중 어떤 것을 선택해야 할까요? 상황에 따라 다르다고 할 수 있습니다. 개별 결정 트리의 낮은 성능이 문제라면 부스팅이 적합하고, 오버 피팅이 문제라면 배깅이 적합합니다.
+부스팅은 배깅에 비해 error가 적습니다. 즉, 성능이 좋습니다. 하지만 속도가 느리고 오버 피팅이 될 가능성이 있습니다. 상황에 따라 다르다고 할 수 있습니다. 개별 결정 트리의 낮은 성능이 문제라면 부스팅이 적합하고, 오버 피팅이 문제라면 배깅이 적합합니다.
 
 ---
 
-# **Appendix**
-
 ## Reference
 
-[[머신러닝] 앙상블 학습 - 1) 배경](https://sungkee-book.tistory.com/8)
+- [[머신러닝] 앙상블 학습 - 1) 배경](https://sungkee-book.tistory.com/8)
+- [Boosting and Bagging explained with examples (Medium)](https://medium.com/@albert_m/boosting-and-bagging-explained-with-examples-5fdb6d3e6cb)

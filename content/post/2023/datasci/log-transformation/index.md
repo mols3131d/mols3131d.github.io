@@ -14,9 +14,9 @@ fmContentType: hugo-content
 
 로그 변환은 데이터의 분포가 한쪽으로 치우쳐 있거나 불규칙할 때, 이를 표준정규분포에 가까운 형태로 변형하기 위해 사용되는 기법입니다.
 
-![Log Transformation 효과 시각화](Untitled.png)
+![Log Transformation 효과 시각화](log-transformation-graph.png)
 
-# 로그를 사용하는 이유
+## 로그를 사용하는 이유
 
 1. **큰 수의 압축**: 아주 큰 값을 상대적으로 작은 범위로 압축합니다.
 2. **연산 단순화**: 지수 연산을 덧셈으로 바꾸어 복잡한 계산을 용이하게 합니다.
@@ -34,3 +34,5 @@ fmContentType: hugo-content
 
 - [NumPy log1p documentation](https://numpy.org/doc/stable/reference/generated/numpy.log1p.html)
 - 데이터 전처리를 위한 로그 변환 가이드
+
+

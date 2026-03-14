@@ -1,7 +1,7 @@
 ---
 title: 경우의 수 (Number of Cases)
 date: 2023-06-11T00:00:00Z
-description: 순열, 조합, 이항 계수 등 알고리즘 문제 풀이에 필수적인 경우의 수 공식 요약
+description: "순열, 조합, 이항 계수 등 알고리즘 문제 풀이에 필수적인 경우의 수 공식 요약"
 categories:
   - CompSci
 tags:
@@ -11,7 +11,7 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 경우의 수
+## 경우의 수
 
 1. 순열 (Permutation):
    - 중복 허용하지 않는 순열: nPr = n! / (n - r)!
@@ -37,3 +37,5 @@ fmContentType: hugo-content
 - [경우의 수 (Wikipedia)](https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%9A%B0%EC%9D%98_%EC%88%98)
 - [경우의 수 (나무위키)](https://namu.wiki/w/%EA%B2%BD%EC%9A%B0%EC%9D%98%20%EC%88%98)
 - [경우의 수 공식 (나무위키)](https://namu.wiki/w/%EA%B2%BD%EC%9A%B0%EC%9D%98%20%EC%88%98/%EA%B3%B5%EC%8B%9D)
+
+

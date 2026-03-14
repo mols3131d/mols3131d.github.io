@@ -12,11 +12,13 @@ tags:
 fmContentType: hugo-content
 ---
 
+## 문제 풀이 요약
+
 문제 링크: [신입사원 교육](https://school.programmers.co.kr/learn/courses/15009/lessons/121688)
 
 문제가 어려워서 정리했다기 보다는 아직 이 문제에 대한 글이 적길래 적어본다.
 
-# 시도1
+## 시도1
 
 문제 설명에 아래의 내용이 있어서 `ability`의 요소를 `(elem, 1)`처럼 해서 교육 횟수의 제한을 구분하려 했는데, 정작 교육 횟수의 제한은 없었다.
 
@@ -48,7 +50,7 @@ def solution(ability, number):
     return answer
 ```
 
-# 정답
+## 정답
 
 ```python
 import heapq
@@ -73,9 +75,3 @@ def solution(ability, number):
 
     return answer
 ```
-
----
-
-# **Appendix**
-
-## Reference

@@ -14,7 +14,7 @@ fmContentType: hugo-content
 
 상관분석은 두 변수 간에 어떤 선형적 관계를 갖고 있는지를 분석하는 방법입니다. 두 변수가 서로 독립적인 관계인지 아니면 상관된 관계인지를 파악하고, 그 관계의 강도를 수치적으로 나타냅니다.
 
-# 주요 개념
+## 주요 개념
 
 ## 공분산 (Covariance)
 두 변수가 함께 변화하는 정도를 나타내는 지표입니다.
@@ -37,11 +37,11 @@ fmContentType: hugo-content
 
 | 피어슨 vs 스피어먼 비교 |
 | --- | --- |
-| ![선형 관계가 아니더라도 스피어먼은 1이 될 수 있음](Untitled.png) |
-| ![뚜렷한 경향성이 없을 때 비슷한 값을 가짐](Untitled 1.png) |
-| ![스피어먼은 이상치에 덜 민감함](Untitled 2.png) |
+| ![선형 관계가 아니더라도 스피어먼은 1이 될 수 있음](pearson-spearman-comparison.png) |
+| ![뚜렷한 경향성이 없을 때 비슷한 값을 가짐](correlation-scatter-plot.png) |
+| ![스피어먼은 이상치에 덜 민감함](outlier-effect-correlation.png) |
 
-# 시각화 방법
+## 시각화 방법
 
 - **산점도 (Scatter Plot)**: 두 수치형 변수의 관계를 점으로 표현.
 - **육각형 구간 (Hexbin Plot)**: 데이터가 많아 점이 겹칠 때 유용.
@@ -56,3 +56,5 @@ fmContentType: hugo-content
 - [스피어먼 상관 계수 (Wikipedia)](https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%94%BC%EC%96%B4%EB%A8%BC_%EC%83%81%EA%B4%80_%EA%B3%84%EC%88%98)
 - [p-value의 역설 (Insilicogen Blog)](https://www.insilicogen.com/blog/341)
 - [공분산 (Mindscale)](https://mindscale.kr/course/basic-stat-python/5/)
+
+

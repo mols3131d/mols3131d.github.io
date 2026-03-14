@@ -10,7 +10,7 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 표본추출 방법 개요
+## 표본추출 방법 개요
 
 모집단에서 추출된 표본이 모집단을 잘 대표할 수 있도록 사용하는 다양한 확률적 표본 추출 기법들을 정리합니다.
 
@@ -32,3 +32,5 @@ fmContentType: hugo-content
 
 ## Reference
 - Sampling Techniques in Statistics
+
+

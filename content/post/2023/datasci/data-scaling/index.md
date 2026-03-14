@@ -11,13 +11,13 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 데이터 스케일링의 목적
+## 데이터 스케일링의 목적
 데이터의 범위를 조정하여 변수 간의 단위 차이를 극복하는 과정입니다. 이를 통해 알고리즘의 동작 속도가 빨라지고 성능이 향상될 수 있습니다.
 
 > [!TIP]
 > 결정 트리 기반 모델(XGBoost, RandomForest 등)은 데이터의 상대적 크기에 영향을 받으므로 스케일링이 필수적이지 않습니다.
 
-# 주요 스케일링 기법
+## 주요 스케일링 기법
 
 ## 1. 표준화 (Standardization / Z-score Scaling)
 평균을 0, 표준편차를 1로 맞춘 표준정규분포 형태로 변환합니다.
@@ -39,3 +39,5 @@ fmContentType: hugo-content
 ## Reference
 - Z-score, Min-Max, Robust Scaling comparisons
 - Scikit-learn Scales Documentation
+
+

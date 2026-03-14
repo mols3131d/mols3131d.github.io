@@ -5,11 +5,13 @@ description: ""
 categories:
   - Others
 tags:
+  - powershell
+  - conda
   - legacy
 fmContentType: hugo-content
 ---
 
-# 요약
+## 요약
 
 1. 기본 PowerShell을 관리자 권한으로 실행
 2. **`conda update** --all`
@@ -18,7 +20,7 @@ fmContentType: hugo-content
 
 ---
 
-# 문제 설명
+## 문제 설명
 
 - 환경
     - Windows11-64bit-23H2
@@ -41,7 +43,7 @@ fmContentType: hugo-content
         ```
         
 
-# 해결을 위한 시도
+## 해결을 위한 시도
 
 - `conda init powershell` 명령을 실행하고 다시 시도 했지만, 해결되지 않음.
     
@@ -73,7 +75,7 @@ fmContentType: hugo-content
     ```
     
 
-# 문제 해결
+## 문제 해결
 
 ## `conda init powershell`
 
@@ -175,14 +177,10 @@ fmContentType: hugo-content
 
 ---
 
-# **Appendix**
+---
 
 ## Reference
 
-[PowerShell에서 아나콘다(Anaconda) 환경 설정하기](https://teddylee777.github.io/python/anaconda-powershell/)
-
-[Conda activate가 되지 않을 때 PowerShell 실행 정책 바꾸기](https://bbooo.tistory.com/71)
-
-[Powershell에서 conda activate가 작동이 되지 않는 문제 해결하기](https://3billion-ly.tistory.com/entry/Powershell%EC%97%90%EC%84%9C-conda-activate%EA%B0%80-%EC%9E%91%EB%8F%99%EC%9D%B4-%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
-
-## ~~See also E**xternal URI**~~
+- <https://teddylee777.github.io/python/anaconda-powershell/>
+- <https://bbooo.tistory.com/71/>
+- <https://3billion-ly.tistory.com/entry/Powershell%EC%97%90%EC%84%9C-conda-activate%EA%B0%80-%EC%9E%91%EB%8F%99%EC%9D%B4-%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0>

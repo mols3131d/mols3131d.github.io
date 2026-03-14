@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Wilcoxon signed-rank test (Wilcoxon 부호-순위 검정)"
 date: 2024-05-19T00:00:00Z
 description: ""
@@ -6,12 +6,10 @@ categories:
   - DataSci
 tags:
   - legacy
+  - statistics
+  - hypothesis-testing
 fmContentType: hugo-content
 ---
-
-# Wilcoxon Signed-Rank Test
-
-Wilcoxon 부호-순위 검정
 
 ---
 
@@ -52,14 +50,11 @@ Wilcoxon 부호-순위 검정
         중앙값 차이에 초점을 맞추기 때문에 평균 차이에 대한 직접적인 정보는 제공하지 않음
         
 
----
+## Appendix
 
-# **Appendix**
+### Reference
 
-## Reference
+- <https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test>
+- <https://angeloyeo.github.io/2021/11/26/signed_rank.html>
 
-[Wilcoxon signed-rank test](https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test)
-
-[윌콕슨 부호 순위 검정 - 공돌이의 수학정리노트 (Angelo's Math Notes)](https://angeloyeo.github.io/2021/11/26/signed_rank.html)
-
-## See also E**xternal URI**
+### See also External URI

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Normality Test (정규성 검정)"
 date: 2024-05-17T00:00:00Z
 description: ""
@@ -6,16 +6,16 @@ categories:
   - DataSci
 tags:
   - legacy
+  - statistics
+  - normality-test
 fmContentType: hugo-content
 ---
-
-# Normality Test (정규성 검정)
 
 ---
 
 정규성 검정은 데이터가 정규 분포를 따르는지 확인하는 통계적 방법. 정규 분포는 평균을 중심으로 좌우 대칭의 종 모양을 이루는 분포로, 많은 통계 분석 기법에서 데이터가 정규 분포를 따른다는 가정이 중요하다.
 
-# 정규성 검정의 목적
+## 정규성 검정의 목적
 
 - 모수적 통계 분석의 신뢰성 확보
     
@@ -30,7 +30,7 @@ fmContentType: hugo-content
     머신러닝 모델링에서 입력 데이터의 정규성은 모델 성능에 영향을 줄 수 있다. 정규성 검정을 통해 데이터를 변환하거나 적절한 모델을 선택하여 성능을 향상시킬 수 있다.
     
 
-# 정규성 검정 방법
+## 정규성 검정 방법
 
 정규성 검정 방법은 크게 그래프를 이용한 시각적 방법과 통계적 검정 방법으로 나눌 수 있다.
 
@@ -66,7 +66,7 @@ fmContentType: hugo-content
         정규분포의 왜도(skewness)와 첨도(kurtosis)를 검정.
         
 
-# Python으로 정규성 검정 시작하기
+## Python으로 정규성 검정 시작하기
 
 ```python
 from scipy.stats import shapiro, kstest, anderson
@@ -83,14 +83,14 @@ statistic = result.statistic
 p_value = result.significance_level[2]  # 유의수준 5%에 해당하는 p-value
 ```
 
-# 정규성 검정 결과 해석
+## 정규성 검정 결과 해석
 
 - 일반적으로 p-값이 0.05보다 작으면 데이터가 정규 분포를 따르지 않는다고 판단.
     
     하지만 p-값은 확률적인 값임을 명심해야함. 시각적인 방법과 함께 사용하여 종합적으로 판단하는 것이 좋음.
     
 
-# 정규성을 만족하지 않는 경우
+## 정규성을 만족하지 않는 경우
 
 데이터가 정규성을 만족하지 않는 경우 아래의 방법들을 고려할 수 있다.
 
@@ -107,7 +107,7 @@ p_value = result.significance_level[2]  # 유의수준 5%에 해당하는 p-valu
     머신러닝 모델링에서는 데이터 특성에 맞는 모델을 선택해야 한다.
     
 
-# 빅데이터에서의 정규성 검정
+## 빅데이터에서의 정규성 검정
 
 - 데이터 크기가 크면, 귀무가설이 기각될 가능성이 높음.
     
@@ -128,12 +128,10 @@ p_value = result.significance_level[2]  # 유의수준 5%에 해당하는 p-valu
 
 ---
 
-# **Appendix**
+## Appendix
 
 ## Reference
 
-[Normality test](https://en.wikipedia.org/wiki/Normality_test)
-
-## See also E**xternal URI**
-
-- https://towardsdatascience.com/stop-testing-for-normality-dba96bb73f90
+- <https://en.wikipedia.org/wiki/Normality_test>
+- <https://towardsdatascience.com/stop-testing-for-normality-dba96bb73f90>
+```

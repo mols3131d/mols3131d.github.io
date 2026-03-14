@@ -5,18 +5,11 @@ date: 2025-01-20T11:00:00+09:00
 categories:
   - CompSci
 tags:
-  - Algorithm
-preview: null
-draft: false
-math: false
+  - algorithm
 fmContentType: hugo-content
-aliases:
-  - 동적 계획법
-  - Dynamic Programming
-  - DP
 ---
 
-# 동적 계획법
+## 동적 계획법
 
 복잡한 문제를 간단한 여러 개의 문제로 나누어 푸는 방법을 말한다. 이것은 부분 문제 반복과 최적 부분 구조를 가지고 있는 알고리즘을 일반적인 방법에 비해 더욱 적은 시간 내에 풀 때 사용한다.
 

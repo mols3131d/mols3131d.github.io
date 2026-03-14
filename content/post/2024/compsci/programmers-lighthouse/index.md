@@ -5,11 +5,10 @@ description: 프로그래머스 레벨 3 '등대' 문제 풀이; 트리를 이�
 categories:
   - CompSci
 tags:
-  - coding-test
   - algorithm
-  - dp
-  - tree
+  - coding-test
   - legacy
+  - tree
 fmContentType: hugo-content
 ---
 
@@ -17,7 +16,7 @@ fmContentType: hugo-content
 
 인접한 등대가 1개 뿐인 등대(리프 노드)와 인접한 등대의 경우, 반드시 불이 켜져야 함을 이용하여 몇 가지 시도를 해보았지만, 적절한 풀이가 아니었다. 대신 트리를 이용한 DP나 DFS로 접근하는 것이 효과적이다.
 
-# 풀이
+## 풀이
 
 ## 1. 그리디/재귀 접근법
 
@@ -81,10 +80,8 @@ def solution(n, lighthouse):
 
 ---
 
-# **Appendix**
-
 ## Reference
 
-- [프로그래머스 등대 문제](https://school.programmers.co.kr/learn/courses/30/lessons/133500)
-- [[프로그래머스] (Lv.3) 등대 풀이](https://tolerblanc.github.io/programmers/programmers-lighthouse/)
-- [[프로그래머스] 등대 파이썬 해설](https://www.ai-bio.info/programmers/133500)
+- <https://school.programmers.co.kr/learn/courses/30/lessons/133500>
+- <https://tolerblanc.github.io/programmers/programmers-lighthouse/>
+- <https://www.ai-bio.info/programmers/133500>

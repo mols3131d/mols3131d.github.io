@@ -5,8 +5,9 @@ date: 2024-12-30
 categories:
   - Others
 tags:
-  - python3
+  - python
   - input
+  - legacy
 preview: 
 draft: false
 math: false
@@ -54,12 +55,14 @@ with open("input.txt", "r") as f:
 ## 입력 데이터 처리 기법
 
 ### 1. 한 줄에 여러 데이터 받기 (`split`)
+
 ```python
 # 공백 기준 분리
 name, age = input().split()
 ```
 
 ### 2. 형변환과 동시 처리 (`map`)
+
 ```python
 # 문자열 리스트를 한꺼번에 정수로 변환
 N, M = map(int, input().split())

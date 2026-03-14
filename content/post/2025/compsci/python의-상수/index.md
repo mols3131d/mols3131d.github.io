@@ -1,46 +1,44 @@
 ---
 title: Python의 상수
 date: 2025-08-22T00:00:00Z
-description: ""
+description: "파이썬에서 @property 데코레이터와 __slots__를 사용하여 상수(Constant)와 유사한 동작을 구현하는 방법"
 categories:
   - CompSci
 tags:
+  - python
   - legacy
 fmContentType: hugo-content
 ---
 
 1. `@property` Wrapping
-    
-    ```python
-    def constant(f):
-        def fset(self, value):
-            raise TypeError
-        def fget(self):
-            return f()
-        return property(fget, fset)
-        
-    class _Const(object):
-        @constant
-        def FOO():
-            return 0xBAADFACE
-        @constant
-        def BAR():
-            return 0xDEADBEEF
-    ```
-    
-2. `__slot__ = ()`
-    
-    ```python
-    class CONST(object):
-        __slots__ = ()
-        FOO = 1234
-    
-    CONST = CONST()
-    print(CONST.FOO)
-    ```
-    
 
-# Footnote
+   ```python
+   def constant(f):
+       def fset(self, value):
+           raise TypeError
+       def fget(self):
+           return f()
+       return property(fget, fset)
+
+   class _Const(object):
+       @constant
+       def FOO():
+           return 0xBAADFACE
+       @constant
+       def BAR():
+           return 0xDEADBEEF
+   ```
+
+2. `__slot__ = ()`
+
+   ```python
+   class CONST(object):
+       __slots__ = ()
+       FOO = 1234
+
+   CONST = CONST()
+   print(CONST.FOO)
+   ```
 
 ## Reference
 

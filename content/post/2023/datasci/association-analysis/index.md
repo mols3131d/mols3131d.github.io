@@ -31,7 +31,7 @@ $$Confidence(X \Rightarrow Y) = \frac{Support(X, Y)}{Support(X)}$$
 두 항목이 독립일 때 예상 지지도 대비 실제 지지도의 비율입니다. 1보다 크면 양의 연관성이 있음을 의미합니다.
 $$Lift(X \Rightarrow Y) = \frac{Support(X, Y)}{Support(X) \times Support(Y)}$$
 
-# 주요 알고리즘
+## 주요 알고리즘
 
 - **Apriori**: "항목 집합이 빈번하면 그 부분 집합도 빈번하다"는 원리를 이용해 탐색 범위를 줄입니다.
 - **FP-Growth**: 트리 구조를 사용하여 후보 항목 집합을 생성하지 않고 더 빠르게 빈번한 패턴을 찾습니다.
@@ -42,3 +42,5 @@ $$Lift(X \Rightarrow Y) = \frac{Support(X, Y)}{Support(X) \times Support(Y)}$$
 ## Reference
 
 - [연관규칙분석 알고리즘 정리 (ratsgo's blog)](https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/)
+
+

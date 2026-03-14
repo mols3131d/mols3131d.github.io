@@ -6,7 +6,8 @@ lastmod: 2025-01-21
 categories:
   - DataSci
 tags:
-  - feature_selection
+  - machine-learning
+  - feature-selection
 preview: null
 draft: false
 math: false
@@ -16,8 +17,6 @@ aliases:
   - 보루타
   - 보루타 특성 선택
 ---
-
-# Boruta Feature Selection
 
 특성 선택은 효율적인 ML을 위해 매우 중요하다. 불필요하거나 관련 없는 특성을 제거함으로써 모델의 성능을 향상시키고, 과적합을 방지하며, 계산 비용을 줄일 수 있다. 이를 위해 다양한 특성 선택 방법론들이 연구되었으며, 그 중 랜덤포레스트의 특성 중요도를 활용하는 방법론도 사용된다. Boruta 알고리즘은 랜덤 포레스트 기반의 방법론으로, 랜덤 포레스트 특성 중요도의 한계를 극복하기 위해 특성 선택 방법이다.
 
@@ -34,7 +33,7 @@ Boruta 알고리즘은 랜덤 포레스트를 기반으로 하는 특성 선택 
 > 간단히 말해, Boruta는 랜덤 포레스트 분류기의 기본을 이루는 동일한 아이디어, 즉 시스템에 무작위성을 추가하고 무작위화된 샘플 앙상블로부터 결과를 수집함으로써 무작위 변동과 상관관계의 오해의 소지가 있는 영향을 줄일 수 있다는 아이디어를 기반으로 합니다. 여기서 이 추가적인 무작위성은 어떤 속성이 정말로 중요한지에 대한 더 명확한 시각을 제공할 것입니다.
 >
 > {refer: [Feature Selection with the Boruta Package](https://doi.org/10.18637/jss.v036.i11), page: 3}
-
+>
 > 보루타 알고리즘은 다음 단계들로 구성됩니다:
 >
 > 1. 모든 변수의 복사본을 추가하여 정보 시스템을 확장합니다. (원래 속성 수가 5개 미만이라도 정보 시스템은 항상 최소 5개의 그림자 속성으로 확장됩니다.)
@@ -51,11 +50,11 @@ Boruta 알고리즘은 랜덤 포레스트를 기반으로 하는 특성 선택 
 
 ---
 
-# Reference
+## Reference
 
 - [Feature Selection with the Boruta Package](https://doi.org/10.18637/jss.v036.i11)
 
-# Related
+## Related
 
 - [scikit-learn-contrib/boruta_py](https://github.com/scikit-learn-contrib/boruta_py?tab=readme-ov-file)
 - [BorutaPy | danielhomola.com](https://danielhomola.com/feature%20selection/phd/borutapy-an-all-relevant-feature-selection-method/)

@@ -11,14 +11,14 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 이산화 (Discretization)란?
+## 이산화 (Discretization)란?
 연속적인 수치를 일정 기준에 따라 불연속적인 점(점들) 또는 그룹으로 변환하는 것입니다. 
 
 ## 왜 하는가?
 - 머신러닝 모델에 핵심적인 패턴(힌트)을 제공할 수 있습니다.
 - 사소한 수치 변화에 민감하게 반응하여 발생하는 오버피팅(Overfitting)을 방지합니다.
 
-# 주요 기법 (Pandas 활용)
+## 주요 기법 (Pandas 활용)
 
 ## 1. Equal Width Binning (`pd.cut`)
 - **기준**: 절대적인 범위를 기준으로 나눕니다.
@@ -35,3 +35,5 @@ fmContentType: hugo-content
 ## Reference
 - [이산화 (Wikipedia)](https://ko.wikipedia.org/wiki/이산화)
 - [Pandas cut/qcut Documentation](https://pandas.pydata.org/docs/)
+
+

@@ -5,16 +5,14 @@ date: 2025-01-28
 categories:
   - Others
 tags:
+  - legacy
   - python
   - poetry
   - dependency-management
-preview:
-draft: true
-math: false
 fmContentType: hugo-content
 ---
 
-# [Poetry](https://python-poetry.org/)
+## [Poetry](https://python-poetry.org/)
 
 > **Python packaging and dependency management made easy**
 
@@ -69,6 +67,6 @@ build-backend = "poetry.core.masonry.api"
 
 ---
 
-# Reference
+## Reference
 
-- [Poetry Documentation @python-poetry.org](https://python-poetry.org/docs/)
+- <https://python-poetry.org/docs/>

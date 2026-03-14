@@ -54,17 +54,25 @@ description: Blog content management; creating, editing, and migrating Hugo post
 | `math`          | `boolean`    | default: `false`. 수식 활성화 (`true`/`false`) |
 | `fmContentType` | `string`     | required. `hugo-content` 고정                  |
 
+### 콘텐츠 유형: `fmContentType`
+
 > [!IMPORTANT]
 > `fmContentType`은 Front Matter CMS 확장이 이 파일을 인식하고 관리하기 위해 필요한 전용 필드입니다. Hugo 빌드에는 영향을 주지 않지만, CMS 기능을 유지하기 위해 **마크다운 파일 생성 시 반드시 포함**되어야 합니다.
 
-### categories
+### 콘텐츠 수정 시점: `lastmod`
+
+- 콘텐츠가 담고 있는 내용, 의미, 생각 등이 수정된 경우에만 갱신한다.
+- 독자가 `lastmod`의 갱신을 보고 콘텐츠의 신선도를 판단할 수 있도록 한다.
+- 단순 오탈자 수정으로 `lastmod`을 갱신해버리면 독자가 오해할 수 있다.
+
+### 카테고리: `categories`
 
 - **Conservative Approach**: 카테고리는 보수적으로 최소화하여 운영하며, 가급적 **1개**만 사용하는 것을 권장합니다.
 - **Indexing Focus**: 1개 초과가 필요한 경우, 해당 콘텐츠를 분류하고 찾는 **사람의 인덱싱 관점**에서 가치가 있을 때만 신중히 추가합니다.
 - **First Category**: 물리적 저장 위치(`Directory Partitioning`)의 기준. 핵심 분류를 첫 번째 배치.
 - References: `content/categories`, `taxonomyDb.json`
 
-### tags
+### 태그: `tags`
 
 - **Formatting**: 소문자만 사용, 공백은 하이픈(`-`)으로 대체.
 - **Naming Convention**: 전문 용어는 가급적 **영문**을 사용하며, 상황에 따라 다음을 선택합니다:
@@ -72,3 +80,8 @@ description: Blog content management; creating, editing, and migrating Hugo post
   - **en**: 일반적인 프로그래밍/데이터 사이언스 전문 용어.
   - **ko--en**: 한글 용어와 영문 병기가 필요한 경우 (ex: `머신러닝--machine-learning`).
 - Reference: `taxonomyDb.json`
+
+## File Name
+
+- 파일명(번들은 폴더명)은 `slug`처럼 사용한다.
+- 프론트 매터 `slug`는 관리의 효율성을 위해 사용하지 않는다.

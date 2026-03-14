@@ -10,13 +10,13 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 표본 (Sample)
+## 표본 (Sample)
 
 모집단(Population)에서 선택된 일부분을 의미합니다. 표본은 모집단의 전체 조사가 어렵거나 비효율적일 때 사용되는 대안 수단으로, 이를 통해 모집단의 전반적인 특성을 추정하고 분석할 수 있습니다. 
 
 적절한 표본을 추출하려면 **무작위성(Randomness)**과 **대표성(Representativeness)**을 확보해야 합니다. 즉, 모집단의 모든 원소가 표본에 포함될 기회가 동일해야 하고, 표본이 모집단의 특성을 잘 반영해야 합니다. 
 
-# 표본조사 (Sampling Survey)
+## 표본조사 (Sampling Survey)
 
 모집단 전체를 조사하는 대신에 그 중 일부를 무작위로 선택하여 조사하는 방법입니다.
 
@@ -34,7 +34,7 @@ fmContentType: hugo-content
 
 ---
 
-# 신뢰수준과 신뢰구간
+## 신뢰수준과 신뢰구간
 
 - **신뢰수준 (Confidence Level)**: 표본통계량을 바탕으로 모수를 추정할 때 얼마나 확신을 가질 수 있는지를 나타냅니다. 일반적으로 95%, 99% 등을 사용합니다.
 - **오차범위 (Margin of Error)**: 표본조사 결과와 실제 모집단 간의 허용 가능한 차이를 의미합니다.
@@ -44,3 +44,5 @@ fmContentType: hugo-content
 
 ## Reference
 - 통계 분석 기초: 표본론
+
+

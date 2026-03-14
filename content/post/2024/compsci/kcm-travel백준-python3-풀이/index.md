@@ -6,21 +6,13 @@ categories:
   - CompSci
 tags:
   - legacy
-  - coding_test
+  - coding-test
 fmContentType: hugo-content
 ---
 
-# KCM Travel@백준 Python3 풀이
+## KCM Travel
 
-Category: ComputerSci
-Tags: coding_test
-Last Edited Date: 2024-12-28
-Created Date: 2024-12-28
-Related POST: 동적 계획법 (Dynamic Programming, DP) (https://www.notion.so/Dynamic-Programming-DP-e6782abbf5cc44578c44855accb39ded?pvs=21), 데이크스트라 알고리즘 (Dijkstra Algorithm) (https://www.notion.so/Dijkstra-Algorithm-15bf80bb2ab54059b576e156e57f53e5?pvs=21)
-
-# KCM Travel
-
-[](https://www.acmicpc.net/problem/10217)
+<https://www.acmicpc.net/problem/10217>
 
 ## 풀이 시도 1 - 실패
 

@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Inferential Statistics"
 date: 2023-03-23T00:00:00Z
-description: ""
+description: "Inferential statistics - Inferential : 추론의,추정에 의한 - 모집단에 대한 어떤 미지의 양상을 알기 위해 통계학을 이용하여 추측하는 과정 - 수집한 데이터를 바탕으로 어떤 것을 추론하고 예측하는데 사용하는 통계 기법 - ex) 대통령선거 - 누가 당..."
 categories:
   - DataSci
 tags:
@@ -9,7 +9,7 @@ tags:
 fmContentType: hugo-content
 ---
 
-# Inferential statistics
+## Inferential statistics
 
 - Inferential : 추론의,추정에 의한
 - 모집단에 대한 어떤 미지의 양상을 알기 위해 통계학을 이용하여 추측하는 과정
@@ -26,10 +26,11 @@ fmContentType: hugo-content
 
 ---
 
-# **Appendix**
 
 ## Reference
 
 [통계적 추론 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%ED%86%B5%EA%B3%84%EC%A0%81_%EC%B6%94%EB%A1%A0)
 
 [기술통계 vs 추리통계](https://velog.io/@gggggeun1/%EA%B8%B0%EC%88%A0%ED%86%B5%EA%B3%84-vs-%EC%B6%94%EB%A6%AC%ED%86%B5%EA%B3%84)
+
+

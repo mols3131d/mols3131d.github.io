@@ -11,7 +11,7 @@ tags:
 fmContentType: hugo-content
 ---
 
-# EDA 개요
+## EDA 개요
 
 탐색적 데이터 분석(EDA)은 주어진 데이터를 다각도에서 관찰하고 이해하는 과정입니다. 이는 선입견이나 인지 오류가 개입되지 않도록 객관적이면서도 유연한 탐색을 지향합니다.
 
@@ -37,3 +37,5 @@ Tukey(1977)는 EDA를 **“주어진 데이터에서 증거를 찾는 일”**�
 ## Reference
 - Tukey, J. W. (1977). Exploratory Data Analysis.
 - R for Data Science (EDA Chapter)
+
+

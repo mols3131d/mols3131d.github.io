@@ -1,7 +1,7 @@
 ---
 title: Two Pointer
 date: 2023-06-18T00:00:00Z
-description: ""
+description: "Two Pointer는 주어진 배열 또는 리스트에서 두 개의 포인터를 사용하여 특정 작업을 수행하는 기법"
 categories:
   - CompSci
 tags:
@@ -10,7 +10,7 @@ tags:
 fmContentType: hugo-content
 ---
 
-# Two Pointer
+## Two Pointer
 
 ---
 
@@ -53,8 +53,6 @@ print(count_subarray_sum(data, n, m))  # 결과: 3
 
 ---
 
-# **Appendix**
-
 ## Reference
 
 [Two Pointers Technique - GeeksforGeeks](https://www.geeksforgeeks.org/two-pointers-technique/)
@@ -63,4 +61,4 @@ print(count_subarray_sum(data, n, m))  # 결과: 3
 
 ## See also E**xternal URI**
 
-[](https://school.programmers.co.kr/learn/courses/30/lessons/178870)
+<https://school.programmers.co.kr/learn/courses/30/lessons/178870>

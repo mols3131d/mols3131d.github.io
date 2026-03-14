@@ -50,8 +50,8 @@ import numpy as np
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
-# 가상 데이터 생성 및 분석
-# ... (중략)
+## 가상 데이터 생성 및 분석
+## ... (중략)
 model = ols('value ~ C(A) * C(B)', data=df).fit()
 anova_result = sm.stats.anova_lm(model, typ=2)
 print(anova_result)
@@ -63,8 +63,9 @@ print(anova_result)
 
 ---
 
-# **Appendix**
 
 ## Reference
 
 - [분산 분석 (Wikipedia)](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%EB%B6%84%EC%84%9D)
+
+

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Shapiro-Wilk test (샤피로-윌크 검정)"
 date: 2024-05-17T00:00:00Z
 description: ""
@@ -6,12 +6,10 @@ categories:
   - DataSci
 tags:
   - legacy
+  - statistics
+  - normality-test
 fmContentType: hugo-content
 ---
-
-# Shapiro-Wilk test
-
-샤피로-윌크 검정
 
 ---
 
@@ -47,16 +45,20 @@ Shapiro-Wilk 검정은 다음과 같은 단계로 진행됨.
     - Shapiro-Wilk 검정은 정규성 검정 방법 중에서도 비교적 강력한 검정력을 가짐.
     - 특히, 표본 크기가 작을 때에도 좋은 성능을 보임.
 - 단점
-    - 표본 크기가 매우 클 경우에는 작은 차이에도 민감하게 반응하여 정규성을 기각하는 경우가 있으므로 주의해야 해야함.
-    - 또한, Shapiro-Wilk 검정은 정규 분포와의 차이를 설명하지 못하며, 다른 분포를 따르는지에 대한 정보도 제공하지 않음.
-    - 이상치에 민감하다. 데이터의 순서 통계량을 이용하여 정규성을 판단하는데, 이상치는 순서 통계량에 큰 영향을 미칠 수 있기 때문.
+-   장점
+    -   Shapiro-Wilk 검정은 정규성 검정 방법 중에서도 비교적 강력한 검정력을 가짐.
+    -   특히, 표본 크기가 작을 때에도 좋은 성능을 보임.
+-   단점
+    -   표본 크기가 매우 클 경우에는 작은 차이에도 민감하게 반응하여 정규성을 기각하는 경우가 있으므로 주의해야 해야함.
+    -   또한, Shapiro-Wilk 검정은 정규 분포와의 차이를 설명하지 못하며, 다른 분포를 따르는지에 대한 정보도 제공하지 않음.
+    -   이상치에 민감하다. 데이터의 순서 통계량을 이용하여 정규성을 판단하는데, 이상치는 순서 통계량에 큰 영향을 미칠 수 있기 때문.
 
 ---
 
-# **Appendix**
+## Appendix
 
 ## Reference
 
-[Shapiro–Wilk test](https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test)
+- <https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test>
 
-## See also E**xternal URI**
+## See also External URI

@@ -1,29 +1,21 @@
-﻿---
+---
 title: "Python3 dict.setdefault()"
 date: 2025-04-10T00:00:00Z
 description: ""
 categories:
-  - others
+  - Others
 tags:
   - legacy
-  - Computer Language :: Python
-  - Computer Language :: Python :: 3
+  - python
 fmContentType: hugo-content
 ---
 
-# Python3 dict.setdefault()
+## `dict.setdefault()`
 
-Category: others
-Tags: Computer Language :: Python, Computer Language :: Python :: 3
-Last Edited Date: 2025-04-10
-Created Date: 2025-04-10
-
-# `dict.setdefault()`
-
-```
+```text
 setdefault(key, default=None, /) method of builtins.dict instance
     Insert key with a value of default if key is not in the dictionary.
-    
+
     Return the value for key if key is in the dictionary, else default.
 ```
 
@@ -47,7 +39,7 @@ for word in words:
 print(word_counts)
 ```
 
-```
+```text
 {'apple': 3, 'banana': 2, 'orange': 1}
 ```
 
@@ -63,7 +55,7 @@ for key, value in data:
 print(grouped_data)
 ```
 
-```
+```text
 {'a': [1, 3], 'b': [2, 5], 'c': [4]}
 ```
 

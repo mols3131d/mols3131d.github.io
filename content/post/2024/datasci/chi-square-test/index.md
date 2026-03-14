@@ -14,13 +14,13 @@ fmContentType: hugo-content
 
 카이제곱 검정은 대규모 샘플에서 범주형 데이터(두 변수)를 분석하기 위한 통계적 가설 검정 방법입니다. 주요 목적은 교차표(contingency table) 내에서 두 범주형 변수가 서로 독립적인지 확인하거나, 관찰값과 기대값 간의 차이가 통계적으로 유의미한지 판단하는 것입니다.
 
-# 가설 설정
+## 가설 설정
 
 - 귀무가설($H_0$): 두 변수 간에 독립적이거나, 관찰값과 기대값 사이에 차이가 없다.
 - 대립가설($H_1$): 두 변수는 독립적이지 않거나, 관찰값과 기대값 간에 차이가 있다.
 - 카이제곱 분포는 귀무가설이 참일 때 검정통계량의 분포를 따릅니다.
 
-# 카이제곱 통계량
+## 카이제곱 통계량
 
 관찰값과 기대값 간의 편차를 정규화한 후 합산한 값으로 정의합니다.
 
@@ -35,7 +35,7 @@ $$
 
 편차의 제곱을 기대값으로 나눠 정규화하고 이 값들을 합한 것으로 볼 수 있습니다.
 
-# 특징
+## 특징
 
 - 샘플 크기가 클 경우 사용.
 - 관찰값이 상호 배타적인 범주로 분류되어야 함.
@@ -45,7 +45,7 @@ $$
 - **장점**: 범주형 데이터에 대한 직관적인 분석이 가능하며 계산이 단순함.
 - **한계**: 기대빈도가 5 미만일 경우 신뢰도가 낮아지며, 인인과 관계를 설명할 수는 없음.
 
-# 실습 Python3 코드
+## 실습 Python3 코드
 
 ```python
 import numpy as np
@@ -94,6 +94,6 @@ print("p-value:", p)
 
 ## Reference
 
-- [Chi-squared test (Wikipedia)](https://en.wikipedia.org/wiki/Chi-squared_test)
-- [카이제곱 검정 (Wikipedia)](https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%9D%B4%EC%A0%9C%EA%B3%B1_%EA%B2%80%EC%A0%95)
-- [카이제곱 분포와 검정 (공돌이의 수학정리노트)](https://angeloyeo.github.io/2021/12/13/chi_square.html)
+- <https://en.wikipedia.org/wiki/Chi-squared_test>
+- <https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%9D%B4%EC%A0%9C%EA%B3%B1_%EA%B2%80%EC%A0%95>
+- <https://angeloyeo.github.io/2021/12/13/chi_square.html>

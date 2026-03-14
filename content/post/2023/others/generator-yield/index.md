@@ -1,7 +1,7 @@
 ---
 title: Generator & Yield
 date: 2023-10-17T00:00:00Z
-description: ""
+description: "Generator --- Python에서 generator는 iterator를 생성하는 함수. - Iterator: `next()` 함수를 통해 값을 순차적으로 반환할 수 있는 객체 - List나 tuple 같은 컬렉션은 모든 값을 메모리에 저장하지만, generator는 이와 달..."
 categories:
   - Others
 tags:
@@ -22,7 +22,7 @@ Python에서 generator는 iterator를 생성하는 함수.
     
 
 ```python
-# count_up_to 함수는 1부터 입력받은 숫자까지의 정수를 차례대로 생성하는 generator
+## count_up_to 함수는 1부터 입력받은 숫자까지의 정수를 차례대로 생성하는 generator
 def count_up_to(n):
     count = 1
     while count <= n:
@@ -60,8 +60,7 @@ Python의 `yield` 키워드는 generator 함수 내부에서 사용.
 
 ---
 
-# **Appendix**
 
-## Reference
 
-## See also E**xternal URI**
+
+

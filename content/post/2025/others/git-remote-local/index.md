@@ -5,14 +5,13 @@ date: 2025-01-18T19:33:32+09:00
 categories:
   - Others
 tags:
-  - Git
-preview: 
-draft: false
-math: false
+  - legacy
+  - git
+  - workflow
 fmContentType: hugo-content
 ---
 
-# 로컬 폴더에 git remote하는 방법
+## 로컬 폴더에 git remote하는 방법
 
 Arc 브라우저를 사용하다가 최근 Zen 브라우저를 사용하고 있다. 여러 이유로 Zen을 쓰고 있지만, Arc에서 지원하던 탭 동기화 기능이 Zen은 지원하지 않아서 많은 불편함이 있었다. 그래서 프로필 데이터에서 탭 정보를 가지고 있는 데이터를 찾고 그것을 동기화하려고 한다. 이 과정에서 알게된 Git 사용법을 정리하려고 한다. 이 글에서는 Bare Repository로 깃허브같은 서비스가 아니라 로컬 파일을 사용하는 방법을 적어둔다.
 
@@ -68,6 +67,6 @@ C 드라이브의 두 폴더를 통해 설명한다.
 
 ## Reference
 
-- [GitHub File System Remotes](https://thehorrors.org.uk/snippets/git-local-filesystem-remotes/)
-- [What is a Bare Git Repository?](https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/)
-- [Reddit Discussion on Bare Repos](https://www.reddit.com/r/git/comments/6ncejs/comment/dk8ixyq/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- <https://thehorrors.org.uk/snippets/git-local-filesystem-remotes/>
+- <https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/>
+- <https://www.reddit.com/r/git/comments/6ncejs/comment/dk8ixyq/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button>

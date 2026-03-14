@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Data"
 date: 2023-03-23T00:00:00Z
-description: ""
+description: "Data --- 속성에 따른 - 데이터는 일반적으로 **수치형 데이터(Numerical Data)**와 **범주형 데이터(Categorical Data)**로 구분 - 수치형 데이터는 다시 **연속형 데이터(Continuous Data)**와 **이산형 데이터(Discrete Da..."
 categories:
   - DataSci
 tags:
@@ -9,11 +9,11 @@ tags:
 fmContentType: hugo-content
 ---
 
-# Data
+## Data
 
 ---
 
-# 속성에 따른
+## 속성에 따른
 
 ```mermaid
 
@@ -34,7 +34,7 @@ graph LR
     - 수치형 데이터는 다시 **연속형 데이터(Continuous Data)**와 **이산형 데이터(Discrete Data)**로 구분
     - 범주형 데이터는 다시 **순위형 데이터(Ordinal Data)**와 **명목형 데이터(Nominal Data)**로 구분
 
-# 구성
+## 구성
 
 ## Item
 
@@ -102,7 +102,7 @@ aka. Response variable(반응 변수), Outcome variable(결과 변수)
 
 모형에 포함되지 않았지만 종속 변수에 영향을 미치는 변수이다.
 
-# 척도
+## 척도
 
 척도(Scale)는 어떠한 대상의 특성을 단위를 사용하여 정량화한 것을 말합니다. 
 
@@ -165,8 +165,9 @@ aka. Response variable(반응 변수), Outcome variable(결과 변수)
 
 ---
 
-# **Appendix**
 
 ## Reference
 
 [[개념 통계 03] 통계의 시작: 자료와 변수의 종류](https://drhongdatanote.tistory.com/3)
+
+

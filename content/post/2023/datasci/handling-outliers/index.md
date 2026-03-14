@@ -11,13 +11,13 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 이상치 탐지 기준
+## 이상치 탐지 기준
 무엇을 '이상치'로 볼 것인지 결정하는 과정입니다.
 
 1. **표준편차**: 데이터가 정규분포를 따를 때, 보통 $\pm 3\sigma$를 벗어나는 값을 이상치로 간주합니다.
 2. **IQR (Interquartile Range)**: 정규분포를 따르지 않을 때 주로 사용하며, $(Q1 - 1.5 \times IQR)$ 미만 또는 $(Q3 + 1.5 \times IQR)$ 초과 값을 이상치로 봅니다.
 
-# 이상치 처리 방법
+## 이상치 처리 방법
 
 - **삭제**: 전체 데이터 규모가 충분히 클 때 고려합니다.
 - **대치(Imputation)**: 
@@ -35,3 +35,5 @@ fmContentType: hugo-content
 
 ## Reference
 - Outlier detection methods in Statistics
+
+

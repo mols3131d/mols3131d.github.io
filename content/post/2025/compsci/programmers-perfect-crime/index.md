@@ -6,14 +6,13 @@ categories:
   - CompSci
 tags:
   - coding-test
-  - dynamic-programming
   - legacy
 fmContentType: hugo-content
 ---
 
 이 문제는 각 단계에서 남는 두 종류의 흔적을 고려하며 총합의 제한을 지키면서 한쪽의 흔적을 최소화하는 DP 문제입니다.
 
-# DP를 활용한 풀이
+## DP를 활용한 풀이
 
 ```python
 def solution(info, n, m):
@@ -47,7 +46,9 @@ def solution(info, n, m):
 ---
 
 ## Note
+
 위 풀이는 일반적인 배낭 문제(Knapsack) 스타일의 동적 계획법을 코딩테스트 환경에 맞춰 최적화한 구현입니다.
 
 ## Reference
+
 - [프로그래머스 완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480)

@@ -14,9 +14,9 @@ fmContentType: hugo-content
 
 파생 변수란 기존 변수의 연산, 조합, 분해, 함수 적용 등을 통해 새롭게 생성된 변수를 의미합니다. 적절한 파생 변수 생성은 데이터 해석을 돕고 모델 성능을 향상시킬 수 있습니다.
 
-![파생 변수 생성 개념](Untitled.png)
+![파생 변수 생성 개념](derived-variable-example.png)
 
-# 주요 방법
+## 주요 방법
 
 ## 다항식 전개 (Polynomial Expansion)
 주어진 다항식의 차수 값에 기반하여 변수를 생성합니다. 예를 들어 `[a, b]` 피처가 있다면 차수 2에서는 `[1, a, b, a^2, ab, b^2]`와 같은 조합이 가능합니다.
@@ -30,3 +30,5 @@ fmContentType: hugo-content
 
 - [Scikit-learn: PolynomialFeatures](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
 - 파생 변수와 요약 변수의 차이 이해
+
+

@@ -12,7 +12,7 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 손실함수와 최적화 기법
+## 손실함수와 최적화 기법
 
 학습 중인 모델의 성능을 평가하고 점진적으로 개선하기 위해 사용되는 손실함수와 최적화 기법에 대해 정리합니다.
 
@@ -22,3 +22,5 @@ fmContentType: hugo-content
 
 ## Reference
 - Deep Learning Optimization Techniques
+
+

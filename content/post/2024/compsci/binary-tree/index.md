@@ -5,13 +5,13 @@ description: 각 노드가 최대 두 개의 자식을 가지는 트리의 정�
 categories:
   - CompSci
 tags:
-  - data_structure
-  - algorithm
   - legacy
+  - data-structure
+  - algorithm
 fmContentType: hugo-content
 ---
 
-# 이진 트리란?
+## 이진 트리란?
 각 노드가 최대 두 개의 자식 노드를 가질 수 있는 계층적 자료구조를 의미합니다. 두 개의 자식은 각각 **왼쪽 자식(Left Child)**과 **오른쪽 자식(Right Child)**으로 불립니다.
 
 ## 주요 특징

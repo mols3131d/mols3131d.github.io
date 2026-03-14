@@ -11,7 +11,8 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 프로그래머스 Python3 풀이
+
+## 프로그래머스 Python3 풀이
 
 이 포스트는 프로그래머스 코딩테스트 연습 문제들의 풀이를 정리하기 위한 공간입니다.
 

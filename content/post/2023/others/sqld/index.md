@@ -1,7 +1,7 @@
 ---
 title: SQLD
 date: 2023-10-26T00:00:00Z
-description: ""
+description: "- ㅁㄴㅇ - 문제 PART 1 - 데이터 모델링의 이해 PART 2 - SQL 기본 및 활용 --- --- Appendix Reference See also E**xternal URI**"
 categories:
   - Others
 tags:
@@ -21,13 +21,13 @@ fmContentType: hugo-content
     [[SQLD] 45 ~ 49회 기출문제 주관식 모음 ( 총 32문제/정답 )](https://yunamom.tistory.com/355)
     
 
-# PART 1 - 데이터 모델링의 이해
+## PART 1 - 데이터 모델링의 이해
 
 [데이터 모델링의 이해](https://www.notion.so/484e799e9846472181dd97e66cf4b393?pvs=21)
 
 [데이터 모델과 SQL](https://www.notion.so/SQL-47445ac2f6eb4363aafde816001b7751?pvs=21)
 
-# PART 2 - SQL 기본 및 활용
+## PART 2 - SQL 기본 및 활용
 
 [SQL 기본 __ {2}](https://www.notion.so/SQL-__-2-922236f132b0476d8459e4c040da18ee?pvs=21)
 
@@ -41,8 +41,7 @@ fmContentType: hugo-content
 
 ---
 
-# **Appendix**
 
-## Reference
 
-## See also E**xternal URI**
+
+

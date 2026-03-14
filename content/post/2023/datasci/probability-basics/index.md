@@ -11,7 +11,7 @@ tags:
 fmContentType: hugo-content
 ---
 
-# 확률 개요
+## 확률 개요
 
 사건이 발생할 가능성을 수치로 나타낸 것으로, 통계학 및 데이터 과학의 가장 밑바탕이 되는 개념입니다.
 
@@ -28,3 +28,5 @@ fmContentType: hugo-content
 
 ## Reference
 - 정규 분포 및 확률론 기초
+
+

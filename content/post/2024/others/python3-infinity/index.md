@@ -5,8 +5,9 @@ date: 2024-12-30
 categories:
   - Others
 tags:
-  - python3
+  - python
   - infinity
+  - legacy
 preview: 
 draft: false
 math: false

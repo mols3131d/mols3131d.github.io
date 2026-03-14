@@ -1,20 +1,19 @@
 ---
 title: 퀵 정렬 (Quick Sort) 원리와 구현
 date: 2025-04-20T00:00:00Z
-description: 분할 정복 기반의 강력한 정렬 알고리즘인 퀵 정렬의 작동 원리와 Lomuto/Hoare 분할 기법을 이용한 In-Place 정렬 구현
+description: "분할 정복 기반의 퀵 정렬 작동 원리와 파이썬 구현 기법 (Lomuto Partition 등)"
 categories:
   - CompSci
 tags:
   - algorithm
   - sorting
-  - python
   - legacy
 fmContentType: hugo-content
 ---
 
-# 퀵 정렬 (Quick Sort)
+## 퀵 정렬 (Quick Sort)
 
-![Quick Sort Animation](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+![Quick Sort Animation](quick-sort-animation.gif)
 
 퀵 정렬은 분할 정복(Divide and Conquer) 기법을 사용하는 효율적인 정렬 알고리즘입니다. 평균적으로 $O(n \log n)$의 뛰어난 성능을 보입니다.
 
