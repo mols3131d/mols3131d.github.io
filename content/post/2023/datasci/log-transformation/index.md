@@ -34,5 +34,3 @@ fmContentType: hugo-content
 
 - [NumPy log1p documentation](https://numpy.org/doc/stable/reference/generated/numpy.log1p.html)
 - 데이터 전처리를 위한 로그 변환 가이드
-
-

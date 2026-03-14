@@ -3,10 +3,10 @@ title: Union Find
 date: 2023-06-16T00:00:00Z
 description: "서로소 집합(Disjoint Set)의 합집합 연산과 찾기 연산을 효율적으로 관리하는 유니온-파인드 알고리즘의 원리와 파이썬 구현 정리"
 categories:
-- CompSci
+  - CompSci
 tags:
-- legacy
-- algorithm
+  - legacy
+  - algorithm
 fmContentType: hugo-content
 ---
 
@@ -82,12 +82,14 @@ Union과 Find연산을 하기에 적합한 자료구조.
   ```
 
 - UnionFind 클래스의 인스턴스 생성
+
   ```python
   n = 5
   uf = UnionFind(n)
   ```
 
 - 초기 상태 출력
+
   ```python
   print(uf.parent)
   print(uf.rank)
@@ -99,6 +101,7 @@ Union과 Find연산을 하기에 적합한 자료구조.
   ```
 
 - Union 연산
+
   ```python
   #  수행
   uf.union(0, 1)    # [0, 0, 2, 3, 4] / [1, 0, 0, 0, 0]
@@ -116,6 +119,7 @@ Union과 Find연산을 하기에 적합한 자료구조.
   ```
 
 - Find 연산 수행
+
   ```python
   print(uf.find(2))
   print(uf.find(4))
@@ -147,8 +151,6 @@ Union과 Find연산을 하기에 적합한 자료구조.
   ```text
   [2, 2, 0, 0]
   ```
-
-  ***
 
   ```python
   parent = [0, 1, 0, 1]
@@ -182,8 +184,6 @@ Union과 Find연산을 하기에 적합한 자료구조.
   ```text
   [3, 1, 0, 0]
   ```
-
-  ***
 
   ```python
   parent = [0, 0, 0, 1]

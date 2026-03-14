@@ -46,5 +46,3 @@ fmContentType: hugo-content
 - [시계열 (Wikipedia)](https://ko.wikipedia.org/wiki/시계열)
 - [정상성과 차분 (Forecasting: Principles and Practice)](https://otexts.com/fppkr/stationarity.html)
 - [ACF와 PACF의 이해](https://aliencoder.tistory.com/9)
-
-

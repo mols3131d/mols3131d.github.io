@@ -27,11 +27,11 @@ fmContentType: hugo-content
 ---
 
 ## Conclusion
+
 적절한 범주화는 데이터의 원래 의미를 훼손하지 않으면서 분석의 가독성을 높이는 핵심적인 작업입니다.
 
 ---
 
 ## Reference
+
 - Data Preprocessing Techniques
-
-

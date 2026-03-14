@@ -17,6 +17,7 @@ fmContentType: hugo-content
 ## 분류 모델 지표 (Classification)
 
 ## 혼동 행렬 (Confusion Matrix)
+
 모델의 진단 및 예측 능력을 평가하기 위한 표입니다.
 
 ![혼동 행렬 구조](confusion-matrix-elements.png)
@@ -41,5 +42,3 @@ fmContentType: hugo-content
 
 - 사이킷런을 활용한 머신러닝 성능 평가
 - 모델 평가 및 선택 가이드
-
-

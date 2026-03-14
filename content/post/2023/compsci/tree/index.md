@@ -24,19 +24,19 @@ fmContentType: hugo-content
   - 순회는 Pre-order, In-order, Post-order로 이루어진다.
   - 싸이클이 존재하지 않음.
 - 용어
-  | 용어 | 설명 | 비고 |
+
+  | 용어      | 설명                    | 비고               |
   | --------- | ----------------------- | ------------------ |
-  | node | | aka. vertex (정점) |
-  | root node | 부모가 없는 최상의 node | |
-  | leaf node | 자식이 없는 최하의 node | |
-  | size | 트리의 모든 node의 개수 | |
-  | depth | root node로 부터의 거리 | |
-  | height | depth의 최대값 | |
-  | degree | 각 node의 간선 개수 | |
-  | edge | node와 node사이의 선 | aka. 간선 |
+  | node      |                         | aka. vertex (정점) |
+  | root node | 부모가 없는 최상의 node |                    |
+  | leaf node | 자식이 없는 최하의 node |                    |
+  | size      | 트리의 모든 node의 개수 |                    |
+  | depth     | root node로 부터의 거리 |                    |
+  | height    | depth의 최대값          |                    |
+  | degree    | 각 node의 간선 개수     |                    |
+  | edge      | node와 node사이의 선    | aka. 간선          |
 
 ---
-
 
 ## Reference
 

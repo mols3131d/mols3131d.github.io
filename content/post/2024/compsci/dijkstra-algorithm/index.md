@@ -16,11 +16,11 @@ fmContentType: hugo-content
 
 ## 작동 원리
 
-1.  시작 노드를 설정
-2.  최단 거리 테이블을 초기화
-3.  방문하지 않은 노드 중에서 최단 거리가 가장 짧은 노드를 선택
-4.  해당 노드를 거쳐 다른 노드로 가는 비용을 계산하여 최단 거리 테이블을 갱신
-5.  위 과정을 반복
+1. 시작 노드를 설정
+2. 최단 거리 테이블을 초기화
+3. 방문하지 않은 노드 중에서 최단 거리가 가장 짧은 노드를 선택
+4. 해당 노드를 거쳐 다른 노드로 가는 비용을 계산하여 최단 거리 테이블을 갱신
+5. 위 과정을 반복
 
 ## 예시 코드
 
@@ -67,12 +67,12 @@ print(dijkstra(graph, 'A'))
 ## 관련 코딩 테스트 문제
 
 - [백준 데이크스트라 분류](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22)
-- [백준 데이크스트라 분류](<https://www.acmicpc.net/problemset?sort=ac_desc&algo=22>)
-- [프로그래머스 부대복귀](<https://school.programmers.co.kr/learn/courses/30/lessons/132266>)
+- [백준 데이크스트라 분류](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22)
+- [프로그래머스 부대복귀](https://school.programmers.co.kr/learn/courses/30/lessons/132266)
 
 ---
 
 ## Reference
 
-- [데이크스트라 알고리즘 (Wikipedia)](<https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%8A%B8%EB%9D%BC_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98>)
-- [다익스트라 알고리즘 (나무위키)](<https://namu.wiki/w/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98>)
+- [데이크스트라 알고리즘 (Wikipedia)](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%81%AC%EC%8A%A4%ED%8A%B8%EB%9D%BC_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+- [다익스트라 알고리즘 (나무위키)](https://namu.wiki/w/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)

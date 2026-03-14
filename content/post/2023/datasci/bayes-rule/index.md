@@ -20,6 +20,5 @@ $$P(H|E) = \frac{P(E|H)P(H)}{P(E)}$$
 ---
 
 ## Reference
+
 - [Bayes' Rule | Hyeongmin Lee's Website](https://hyeongminlee.github.io/post/bnn001_bayes_rule/)
-
-

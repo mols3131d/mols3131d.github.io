@@ -43,5 +43,3 @@ fmContentType: hugo-content
 - 인공신경망 (ANN) 원리 및 구조
 - 전이 학습의 개념과 활용
 - 소프트맥스(Softmax) 함수 vs 시그모이드(Sigmoid) 함수
-
-

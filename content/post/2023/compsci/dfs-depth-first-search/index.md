@@ -48,7 +48,6 @@ dfs(graph, 1, visited)
 
 ---
 
-
 ## Reference
 
 - <https://ko.wikipedia.org/wiki/약수>

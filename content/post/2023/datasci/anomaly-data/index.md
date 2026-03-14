@@ -34,7 +34,6 @@ fmContentType: hugo-content
 
 ---
 
-
 ## Reference
 
 - [Outlier (Wikipedia)](https://en.wikipedia.org/wiki/Outlier)

@@ -13,9 +13,11 @@ fmContentType: hugo-content
 ---
 
 ## BFS 개요
+
 너비 우선 탐색은 시작 노드에서 가까운 노드부터 순차적으로 탐색하는 그래프 알고리즘입니다. 주로 최단 경로를 찾거나 연결된 컴포넌트를 확인할 때 사용됩니다.
 
 ## 구현 방법 (Python)
+
 `collections.deque`를 활용해 효율적인 큐(Queue) 구조를 구성하여 구현합니다.
 
 ```python
@@ -52,6 +54,5 @@ bfs(graph, 1)
 ---
 
 ## Reference
+
 - [나동빈 코딩테스트 BFS 강좌](https://github.com/ndb796/python-for-coding-test)
-
-

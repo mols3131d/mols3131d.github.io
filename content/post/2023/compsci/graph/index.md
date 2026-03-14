@@ -12,8 +12,6 @@ tags:
 fmContentType: hugo-content
 ---
 
-![Directed Graph Example](directed-graph-example.png)
-
 그래프는 정점(Vertex, Node)과 그들을 잇는 간선(Edge)으로 구성된 자료구조입니다. 실세계의 복잡한 연결 관계를 추상화하여 표현하는 데 널리 사용됩니다.
 
 ## 그래프 표현 방법

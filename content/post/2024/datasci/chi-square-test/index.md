@@ -80,13 +80,13 @@ print("p-value:", p)
 
 ## 검정 결과 시각화
 
-**바 플롯을 통한 관측 빈도와 기대 빈도 비교**
+바 플롯을 통한 관측 빈도와 기대 빈도 비교
 
-![Observed vs Expected Frequencies](image.png)
+![Observed vs Expected Frequencies](img-1.png)
 
-**카이제곱 분포와 검정통계량 시각화**
+카이제곱 분포와 검정통계량 시각화
 
-![Chi-square Test Visualization](image 1.png)
+![Chi-square Test Visualization](img-2.png)
 
 샘플 크기가 작다면, 카이제곱 검정을 대신하여 피셔의 정확 검정(Fisher's exact test)을 고려할 수 있습니다.
 

@@ -21,9 +21,9 @@ fmContentType: hugo-content
 
 ```python
 class Math:
-		@staticmethod
-		def add(a, b):
-				return a + b
+    @staticmethod
+    def add(a, b):
+        return a + b
 ```
 
 ## `@classmethod`
@@ -34,11 +34,11 @@ class Math:
 
 ```python
 class MyClass:
-		class_var = 0
-	
-		@classmethod
-		def increment(cls):
-			    cls.class_var += 1
+    class_var = 0
+
+    @classmethod
+    def increment(cls):
+        cls.class_var += 1
 ```
 
 ## `@property`
@@ -51,16 +51,16 @@ class MyClass:
 
 ```python
 class MyClass:
-		@property
-		def var(self):
-				return self._var
+    @property
+    def var(self):
+        return self._var
 ```
 
 ## `@var.setter`
 
-인스턴스의 속성에 대한 세터(setter) 메서드를 정의할 때 사용. 
+인스턴스의 속성에 대한 세터(setter) 메서드를 정의할 때 사용.
 
-이 메서드는 특정 속성의 값을 설정하며, 이 속성에 대한 변경을 제어할 수 있음. 
+이 메서드는 특정 속성의 값을 설정하며, 이 속성에 대한 변경을 제어할 수 있음.
 
 세터 메서드는 속성 값을 검증하거나, 속성이 변경될 때 추가적인 로직을 실행하는 데 사용될 수 있음.
 
@@ -71,10 +71,3 @@ def var(self, value):
         raise ValueError("Cannot set negative value")
     self._var = value
 ```
-
----
-
-
-
-
-

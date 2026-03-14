@@ -1,7 +1,7 @@
 ---
 title: KCM Travel@백준 Python3 풀이
 date: 2024-12-28T00:00:00Z
-description: ""
+description: "KCM Travel 백준 Python3 풀이"
 categories:
   - CompSci
 tags:
@@ -62,7 +62,7 @@ else:
     print(d)
 ```
 
-데이크스트라로 풀면 시간초과가 나는 것 같다. 그래서 다른 풀이 방법이 필요하다. 
+데이크스트라로 풀면 시간초과가 나는 것 같다. 그래서 다른 풀이 방법이 필요하다.
 
 ## 풀이 시도 2 -
 

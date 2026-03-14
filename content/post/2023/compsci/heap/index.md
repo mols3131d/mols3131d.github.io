@@ -10,8 +10,6 @@ tags:
 fmContentType: hugo-content
 ---
 
-![Max Heap Structure](max-heap-structure.png)
-
 ## Heap (힙)
 
 - **Heap**: 무엇인가를 차곡차곡 쌓아올린 더미를 의미합니다.
@@ -24,7 +22,6 @@ fmContentType: hugo-content
 파이썬의 `heapq` 모듈은 이진 트리 기반의 최소 힙(Min Heap) 알고리즘을 제공합니다. 모든 부모 노드는 자식보다 작거나 같은 값을 가집니다.
 
 ---
-
 
 ## Reference
 

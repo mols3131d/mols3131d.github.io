@@ -32,9 +32,9 @@ def solution(n, lighthouse):
     for a, b in lighthouse:
         graph[a].add(b)
         graph[b].add(a)
-    
+
     lightup = [False] * (n + 1)
-    
+
     def check(root, children):
         if not children:
             return False
@@ -61,7 +61,7 @@ def solution(n, lighthouse):
     for u, v in lighthouse:
         adj[u].append(v)
         adj[v].append(u)
-        
+
     vis = [False] * (n + 1)
 
     def dfs(u):

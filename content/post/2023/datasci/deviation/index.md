@@ -54,11 +54,3 @@ MAD, 중위절대편차, 중앙값 절대 편차
 ## Least Absolute Deviation
 
 LAD, 최소 절대 편차
-
----
-
----
-
-
-
-

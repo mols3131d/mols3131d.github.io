@@ -42,5 +42,3 @@ $$Lift(X \Rightarrow Y) = \frac{Support(X, Y)}{Support(X) \times Support(Y)}$$
 ## Reference
 
 - [연관규칙분석 알고리즘 정리 (ratsgo's blog)](https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/)
-
-

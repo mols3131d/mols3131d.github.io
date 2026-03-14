@@ -11,6 +11,7 @@ fmContentType: hugo-content
 ---
 
 ## 편향 (Bias) 이란?
+
 통계학에서 편향은 결과와 사실 간의 차이를 유발하는 **체계적인 경향**을 의미합니다. 이는 단순한 실수(오타)나 기기 고장과는 구별되며, 주로 데이터 수집 기준이나 분석 프로세스의 설계 결함에서 비롯됩니다.
 
 ## 주요 편향의 종류
@@ -26,7 +27,6 @@ fmContentType: hugo-content
 > 편향을 이해하고 최소화하는 것은 통계적 가설 검정에서 **1종 오류**와 **2종 오류**를 방지하는 핵심적인 단계입니다.
 
 ## Reference
-- [편향 (Wikipedia)](https://ko.wikipedia.org/wiki/편향_(통계학))
+
+- [편향 (Wikipedia)](<https://ko.wikipedia.org/wiki/편향_(통계학)>)
 - [선택 편향 (Wikipedia)](https://ko.wikipedia.org/wiki/선택_편향)
-
-
