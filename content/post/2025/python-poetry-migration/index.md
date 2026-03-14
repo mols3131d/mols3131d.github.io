@@ -8,7 +8,7 @@ tags:
   - python
   - poetry
   - dependency-management
-preview: 
+preview:
 draft: true
 math: false
 fmContentType: hugo-content
@@ -30,6 +30,7 @@ Poetry는 [공식 문서](https://python-poetry.org/docs/#installation)를 통�
 ```
 
 설치 후 버전을 확인하여 정상 설치 여부를 파악합니다.
+
 ```Powershell
 poetry --version
 ```
