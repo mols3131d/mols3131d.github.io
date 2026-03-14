@@ -42,5 +42,7 @@
     "editor.insertSpaces": true,
     "editor.wordWrap": "off",
     "files.eol": "\n"
-  }
+  },
+  "foam.links.sync.enable": false,
+  "foam.completion.linkFormat": "link"
 }

@@ -1,6 +1,6 @@
 ---
-title: Data Science
-description: ""
+title: CompSci
+description: "Computer Science"
 image:
 
 # Badge style
