@@ -1,18 +1,15 @@
 ---
-draft: false
 title: 로컬 폴더에 git remote하는 방법
-aliases:
-date: 2025-01-18T19:33:32+09:00
-lastmod: 
-expiryDate:
-summary:
 description: Bare Repository로 깃허브같은 서비스가 아니라 로컬 파일을 사용하는 방법
+date: 2025-01-18T19:33:32+09:00
 categories:
-    - Others
+  - Others
 tags:
-    - Git
-image:
+  - Git
+preview: 
+draft: false
 math: false
+fmContentType: hugo-content
 ---
 
 # 로컬 폴더에 git remote하는 방법
@@ -37,44 +34,40 @@ Bare Repository는 코드를 공유하고 협업할 수 있도록 중앙 집중�
 
 C 드라이브의 두 폴더를 통해 설명한다.
 
--   C
-    -   repositories
-    -   repositories_2
+- C
+  - repositories
+  - repositories_2
 
 ---
 
 1. Bare Repository를 git init --bare 명령어로 생성한다.
 
-    repositories\new_project.git라는 폴더로 생성된다. Bare Repository의 이름에 .git을 붙히는 것은 관행으로 보인다.
+   repositories\new_project.git라는 폴더로 생성된다. Bare Repository의 이름에 .git을 붙히는 것은 관행으로 보인다.
 
-    ```PowerShell
-    PS C:\repositories> git init --bare "new_project.git"
-    Initialized empty Git repository in C:/repositories/new_project.git/
-    ```
+   ```PowerShell
+   PS C:\repositories> git init --bare "new_project.git"
+   Initialized empty Git repository in C:/repositories/new_project.git/
+   ```
 
 2. Non-Bare Repository를 생성한다.
 
-    ```PowerShell
-    PS C:\repositories_2> mkdir new_project
-    PS C:\repositories_2> cd new_project
-    PS C:\repositories_2\new_project> git init
-    ```
+   ```PowerShell
+   PS C:\repositories_2> mkdir new_project
+   PS C:\repositories_2> cd new_project
+   PS C:\repositories_2\new_project> git init
+   ```
 
 3. Non-Bare Repository를 Bare Repository와 연결한다.
 
-    ```PowerShell
-    PS C:\repositories_2\new_project> git remote add origin "C:\repositoies\new_project.git"
-    PS C:\repositories_2\new_project> git remote -v
-    origin C:\repositoies\new_project.git (fetch)
-    origin C:\repositoies\new_project.git (push)
-    ```
+   ```PowerShell
+   PS C:\repositories_2\new_project> git remote add origin "C:\repositoies\new_project.git"
+   PS C:\repositories_2\new_project> git remote -v
+   origin C:\repositoies\new_project.git (fetch)
+   origin C:\repositoies\new_project.git (push)
+   ```
 
 ## Reference
 
-https://thehorrors.org.uk/snippets/git-local-filesystem-remotes/
-
-https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
-
-https://www.reddit.com/r/git/comments/6ncejs/comment/dk8ixyq/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
-
----
+- [GitHub File System Remotes](https://thehorrors.org.uk/snippets/git-local-filesystem-remotes/)
+- [What is a Bare Git Repository?](https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/)
+- [Reddit Discussion on Bare Repos](https://www.reddit.com/r/git/comments/6ncejs/comment/dk8ixyq/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
