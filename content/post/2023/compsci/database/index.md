@@ -18,13 +18,13 @@ fmContentType: hugo-content
 
 ### 계층형 데이터베이스 모델 (Hierarchical Database Model)
 
-![1:N 관계 모델](Untitled.png)
+![1:N 관계 모델](img-1.png)
 
 1:N 관계를 가집니다.
 
 ### 네트워크형 데이터베이스 모델 (Network Database Model)
 
-![N:N 관계 모델](Untitled 1.png)
+![N:N 관계 모델](img-2.png)
 
 N:N 관계를 가집니다.
 
