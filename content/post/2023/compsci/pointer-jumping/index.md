@@ -12,8 +12,6 @@ fmContentType: hugo-content
 
 ## Pointer Jumping
 
----
-
 Pointer Jumping은 배열 또는 리스트에서 한 번에 여러 개의 요소를 건너뛰면서 탐색하는 기법.
 
 배열 또는 리스트가 정렬되어 있거나 일정한 패턴을 가지고 있는 경우에 특히 유용.

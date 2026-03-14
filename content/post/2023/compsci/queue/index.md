@@ -10,8 +10,6 @@ tags:
 fmContentType: hugo-content
 ---
 
-## Queue (큐)
-
 - 큐는 대기열이라고도 한다.
 - 선입선출(FIFO: First In First Out )의 자료구조.
   - Queue라는 단어 자체가 표 같은 것을 구매하기 위해 줄서는 것을 의미한다.

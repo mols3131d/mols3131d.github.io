@@ -10,8 +10,6 @@ tags:
 fmContentType: hugo-content
 ---
 
-## Stack (스택)
-
 - 후입선출(Last In First Out—LIFO) 특성을 가지는 자료구조
 - 메모리에 새로 들어오는 데이터의 위치가 메모리 말단(탑 포인터)이고, 내보내는 데이터 역시 메모리 말단을 거친다.
 - 입력연산은 푸시(Push), 출력연산은 팝(Pop)이라고 부른다.
