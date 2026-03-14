@@ -3,10 +3,10 @@ title: Notion에서 Hugo로 이전
 description: 2026년 3월 14일에 Notion에서 Hugo로 이전했음을 기록. 몇 가지 손실된 정보가 있음.
 date: 2026-03-14T10:29:49.239Z
 lastmod: null
-categories: [Other, Document]
+categories: [Other]
 tags: [blog]
 preview: ""
-draft: true
+draft: false
 math: false
 fmContentType: hugo-content
 ---

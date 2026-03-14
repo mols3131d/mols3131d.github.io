@@ -3,15 +3,17 @@
     "categories": [
       "CompSci",
       "DataSci",
-      "Other",
-      "Tool"
+      "Tool",
+      "Other"
     ],
     "tags": [
       "feature-selection",
       "git",
       "legacy",
       "machine-learning",
-      "python"
+      "python",
+      "blog",
+      "agent"
     ]
   }
 }

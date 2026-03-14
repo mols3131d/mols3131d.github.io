@@ -70,3 +70,28 @@
         opacity: 0.8;
     }
 }
+
+/* 전체 스크롤바 너비 설정 */
+::-webkit-scrollbar {
+    width: 10px;
+    /* 세로 스크롤바 너비 */
+    height: 10px;
+    /* 가로 스크롤바 높이 */
+}
+
+/* 스크롤바 트랙(바탕) 디자인 */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* 스크롤바 핸들(움직이는 부분) 디자인 */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* 마우스 올렸을 때 핸들 색상 변경 */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

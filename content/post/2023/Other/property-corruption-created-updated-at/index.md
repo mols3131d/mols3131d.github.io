@@ -5,7 +5,6 @@ date: 2023-03-23T23:59:59.999Z
 lastmod: 2026-03-14T11:48:36.238Z
 categories:
   - Other
-  - Document
 tags:
   - blog
   - legacy
