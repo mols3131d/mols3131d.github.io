@@ -1,1 +1,16 @@
-{}
+{
+    "taxonomy": {
+        "categories": [
+            "DataSci",
+            "CompSci",
+            "Tools",
+            "Others"
+        ],
+        "tags": [
+            "git",
+            "python",
+            "feature-selection",
+            "machine-learning"
+        ]
+    }
+}
