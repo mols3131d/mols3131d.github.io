@@ -5,8 +5,9 @@ description: "복잡한 문제를 작은 부분 문제로 나누어 해결하는
 categories:
     - ComputerSci
 tags:
-    - algorithm
-    - dp
+  - algorithm
+  - dp
+  - legacy
 fmContentType: hugo-content
 ---
 

@@ -5,10 +5,11 @@ description: "프로그래머스 레벨 3 '등대' 문제 풀이; 트리를 이�
 categories:
     - ComputerSci
 tags:
-    - coding-test
-    - algorithm
-    - dp
-    - tree
+  - coding-test
+  - algorithm
+  - dp
+  - tree
+  - legacy
 fmContentType: hugo-content
 ---
 
