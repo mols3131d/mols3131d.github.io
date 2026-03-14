@@ -30,15 +30,37 @@ import numpy as np
 import seaborn as sns
 from scipy.stats import fisher_exact
 
-np.random.seed(42)
-group_a = np.random.binomial(1, 0.15, 1000)  # 전환율 15%, 총 1000명
-group_b = np.random.binomial(1, 0.2, 1000)   # 전환율 20%, 총 1000명
+```python
+sns.countplot(x=group_a)
+plt.title("Group A Conversion Rate")
+plt.show()
 
+sns.countplot(x=group_b)
+plt.title("Group B Conversion Rate")
+plt.show()
+```
+
+![Group A Conversion Rate](image.png)
+
+![Group B Conversion Rate](image 1.png)
+
+---
+
+```python
 group_a_conversions = np.sum(group_a)
 group_b_conversions = np.sum(group_b)
 print(f"Group A conversions: {group_a_conversions}")
 print(f"Group B conversions: {group_b_conversions}")
+```
 
+| 그룹 | 전환 수 |
+| --- | --- |
+| Group A | 153 |
+| Group B | 204 |
+
+---
+
+```python
 # 2x2 분할표 생성
 table = np.array([
     [group_a_conversions, len(group_a) - group_a_conversions],
@@ -49,7 +71,16 @@ table = np.array([
 odds_ratio, p_value = fisher_exact(table)
 print(f"Odds ratio: {odds_ratio:.2f}")
 print(f"p-value: {p_value:.3f}")
+```
 
+| 결과 항목 | 값 |
+| --- | --- |
+| Odds ratio | 0.70 |
+| p-value | 0.003 |
+
+---
+
+```python
 if p_value < 0.05:
     print("A 그룹과 B 그룹 사이의 차이가 통계적으로 유의합니다.")
     if group_a_conversions > group_b_conversions:
@@ -62,10 +93,10 @@ else:
 
 ---
 
-# **Appendix**
-
 ## Reference
 
 - [A/B 테스트 (Wikipedia)](https://ko.wikipedia.org/wiki/A/B_%ED%85%8C%EC%8A%A4%ED%8A%B8)
 - [A/B 테스트란 (Datarian)](https://datarian.io/blog/a-b-testing)
 - [카카오페이 AB 테스트 서비스 구축기](https://tech.kakaopay.com/post/kakaopay-growth-platform-abtest/)
+- [Mobile Games A/B Testing](https://www.kaggle.com/code/hakankeskin/mobile-games-a-b-testing)
+- [Simple and Complete Guide to A/B Testing](https://news.lunartech.ai/simple-and-complet-guide-to-a-b-testing-c34154d0ce5a)
