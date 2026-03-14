@@ -10,7 +10,7 @@
     "go.sum": true,
 
     // === hugo ===
-    "config/": true,
+    // "config/": true,
     // "config/_default/": true,
     "resources/": true,
     "public/": true,

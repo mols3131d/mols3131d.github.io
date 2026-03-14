@@ -1,9 +1,11 @@
 # Related contents configuration
 includeNewer = true
-threshold    = 60
-toLower      = false
+threshold = 60
+toLower = false
 
 indices = [
     { name = "tags", weight = 100 },
     { name = "categories", weight = 200 },
+    { name = "date", weight = 20 },
+    { name = "title", weight = 40 },
 ]
