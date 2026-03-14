@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "eliostruyf.vscode-front-matter-beta",
+    "foam.foam-vscode",
+    "mermaidchart.vscode-mermaid-chart",
+    "kejun.markdown-alert",
+    "bierner.markdown-checkbox",
+    "bierner.markdown-footnotes",
+    "bierner.markdown-yaml-preamble",
+    "davidanson.vscode-markdownlint"
+  ]
+}

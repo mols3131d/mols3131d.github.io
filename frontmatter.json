@@ -2,46 +2,74 @@
   "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
-      "pageBundle": false,
-      "previewPath": null,
+      "name": "hugo-content",
+      "pageBundle": true,
+      "previewPath": "/assets/img",
       "fields": [
         {
           "title": "Title",
           "name": "title",
-          "type": "string"
+          "type": "string",
+          "required": true,
+          "description": "제목"
         },
         {
           "title": "Description",
           "name": "description",
-          "type": "string"
+          "type": "string",
+          "required": true,
+          "description": "콘텐츠 설명 (소개, 요약)"
         },
         {
           "title": "Publishing date",
           "name": "date",
           "type": "datetime",
           "default": "{{now}}",
-          "isPublishDate": true
+          "isPublishDate": true,
+          "description": "콘텐츠 발행일 또는 생성일"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
+          "title": "Last modified",
+          "name": "lastmod",
+          "type": "datetime",
+          "description": "최종 수정 시각"
         },
         {
           "title": "Categories",
           "name": "categories",
-          "type": "categories"
+          "type": "categories",
+          "description": "Categories. 가급적 1개 권장. 제 1 카테고리는 저장 위치 기준임. (/taxonomyDb.json 참조)"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags",
+          "description": "Tags. 소문자 및 하이픈(-) 사용. (/taxonomyDb.json 참조)"
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image",
+          "description": "콘텐츠 미리보기 이미지"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft",
+          "description": "초안 여부"
+        },
+        {
+          "title": "Math",
+          "name": "math",
+          "type": "boolean",
+          "description": "수식 렌더링 활성화 여부"
+        },
+        {
+          "title": "Content type",
+          "name": "fmContentType",
+          "type": "string",
+          "default": "hugo-content",
+          "description": "콘텐츠 타입. VSCode Extension Front Matter CMS 전용 필드"
         }
       ]
     }

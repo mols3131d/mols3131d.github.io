@@ -1,0 +1,27 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    ".hugo_build.lock": true,
+
+    // === go ===
+    "go.mod": true,
+    "go.sum": true,
+
+    // === hugo ===
+    // "config/_default/": true,
+    "resources/": true,
+    "public/": true,
+    "assets/scss": true,
+    "assets/jsconfig.json": true
+
+    // === front matter cms | vscode extension ===
+    // ".frontmatter/": true,
+    // "frontmatter.json": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80
+  }
+}
