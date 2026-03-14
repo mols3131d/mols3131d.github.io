@@ -18,18 +18,29 @@
     "assets/jsconfig.json": true,
 
     // === hugo-theme-stack ===
-    ".github": true
+    ".github": true,
     // ".github/workflows/update-theme.yml": true,
     // ".github/workflows/deploy.yml": true
 
     // === front matter cms | vscode extension ===
     // ".frontmatter/": true,
     // "frontmatter.json": true
+
+    // === js ===
+    "node_modules": true,
+
+    // === python ===
+    ".venv": true
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 80
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "off",
+    "files.eol": "\n"
   }
 }
