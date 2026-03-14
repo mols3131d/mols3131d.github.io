@@ -8,6 +8,7 @@ tags:
   - association-analysis
   - data-mining
   - apriori
+  - legacy
 fmContentType: hugo-content
 ---
 

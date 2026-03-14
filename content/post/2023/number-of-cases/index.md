@@ -7,6 +7,7 @@ categories:
 tags:
   - algorithm
   - math
+  - legacy
 fmContentType: hugo-content
 ---
 

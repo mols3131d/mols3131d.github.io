@@ -8,6 +8,7 @@ tags:
   - statistics
   - anova
   - hypothesis-testing
+  - legacy
 fmContentType: hugo-content
 ---
 

@@ -8,6 +8,7 @@ tags:
   - ab-test
   - statistics
   - hypothesis-testing
+  - legacy
 fmContentType: hugo-content
 ---
 

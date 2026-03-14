@@ -8,6 +8,7 @@ tags:
   - data-analysis
   - anomaly
   - outlier
+  - legacy
 fmContentType: hugo-content
 ---
 
