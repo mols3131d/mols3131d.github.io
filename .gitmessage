@@ -15,6 +15,7 @@
 # create  : 새로운 포스트 작성
 # update  : 기존 포스트 내용 수정 및 보강
 # fix     : 오타 수정, 깨진 링크 수정 등 단순 교정
+# publish : 포스트 공개(draft: false) 처리
 # delete  : 포스트 파일 완전 삭제
 # archive : 포스트 비공개(draft: true) 처리
 # move    : 포스트 파일 이동 (folding, 아카이빙 폴더 이동 등)
