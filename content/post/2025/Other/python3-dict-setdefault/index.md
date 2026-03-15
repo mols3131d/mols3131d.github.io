@@ -5,7 +5,7 @@ description: ""
 categories:
   - Other
 tags:
-  - legacy
+  - _legacy
   - python
 fmContentType: hugo-content
 ---

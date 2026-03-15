@@ -1,13 +1,13 @@
 ---
-title: "Chi-Square Distribution (χ2 분포, 카이제곱 분포)"
+title: Chi-Square Distribution (χ2 분포, 카이제곱 분포)
 date: 2024-11-26T00:00:00Z
-description: "카이제곱 분포(Chi-Square Distribution)의 정의, 특징, 자유도에 따른 확률밀도함수(PDF) 및 누적분포함수(CDF) 변화 정리"
+description: 카이제곱 분포(Chi-Square Distribution)의 정의, 특징, 자유도에 따른 확률밀도함수(PDF) 및 누적분포함수(CDF) 변화 정리
 categories:
   - DataSci
 tags:
-  - legacy
-  - statistics
+  - _legacy
   - distribution
+  - statistics
 fmContentType: hugo-content
 ---
 

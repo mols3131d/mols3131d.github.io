@@ -1,13 +1,13 @@
 ---
-title: "데이터 범주화 (Data Categorization) 방법론"
+title: 데이터 범주화 (Data Categorization) 방법론
 date: 2023-05-18T00:00:00Z
-description: "수치형 데이터를 의미 있는 그룹으로 묶어 분석 효율을 높이는 데이터 범주화의 목적과 세 가지 주요 방법론 정리"
+description: 수치형 데이터를 의미 있는 그룹으로 묶어 분석 효율을 높이는 데이터 범주화의 목적과 세 가지 주요 방법론 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - data-science
   - processing
-  - legacy
 fmContentType: hugo-content
 ---
 

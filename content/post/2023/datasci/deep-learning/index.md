@@ -1,14 +1,14 @@
 ---
-title: "딥러닝 (Deep Learning, DL)"
+title: 딥러닝 (Deep Learning, DL)
 date: 2023-03-23T00:00:00Z
-description: "인공신경망(ANN)을 기반으로 한 딥러닝의 개념, 퍼셉트론의 구조, 그리고 전이 학습(Transfer Learning) 이해"
+description: 인공신경망(ANN)을 기반으로 한 딥러닝의 개념, 퍼셉트론의 구조, 그리고 전이 학습(Transfer Learning) 이해
 categories:
   - DataSci
 tags:
+  - _legacy
   - deep-learning
-  - neural-network
   - machine-learning
-  - legacy
+  - neural-network
 fmContentType: hugo-content
 ---
 

@@ -7,13 +7,19 @@
       "Other"
     ],
     "tags": [
+      "_legacy",
+      "_test",
+      "agent",
+      "blog",
+      "data-analysis",
+      "data-mining",
       "feature-selection",
       "git",
-      "legacy",
+      "hypothesis-testing",
       "machine-learning",
       "python",
-      "blog",
-      "agent"
+      "sql",
+      "windows"
     ]
   }
 }

@@ -1,11 +1,11 @@
 ---
-title: "Descriptive Statistics"
+title: Descriptive Statistics
 date: 2023-03-23T00:00:00Z
 description: "Descriptive Statistics 기술통계 --- - Discriptive : 묘사하는, 그려서 설명하는 - 기술 : 기술하다의 기술 - 수집한 데이터를 요약, 묘사, 설명하는 통계 기법 - 평균,중앙값,최빈값,표준편차,사분위 등으로 있는 사실에 대해 통계를 내린 것 ---..."
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

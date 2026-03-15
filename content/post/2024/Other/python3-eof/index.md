@@ -5,9 +5,9 @@ date: 2024-12-30
 categories:
   - Other
 tags:
-  - python
+  - _legacy
   - eof
-  - legacy
+  - python
 preview: null
 draft: false
 math: false

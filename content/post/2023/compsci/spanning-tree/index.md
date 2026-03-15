@@ -1,13 +1,13 @@
 ---
 title: 신장 트리 (Spanning Tree)
 date: 2023-06-21T00:00:00Z
-description: "그래프의 모든 노드를 포함하면서 사이클이 없는 부분 그래프인 신장 트리의 정의와 기본 성질 정리"
+description: 그래프의 모든 노드를 포함하면서 사이클이 없는 부분 그래프인 신장 트리의 정의와 기본 성질 정리
 categories:
   - CompSci
 tags:
+  - _legacy
   - data-structure
   - graph-theory
-  - legacy
 fmContentType: hugo-content
 ---
 

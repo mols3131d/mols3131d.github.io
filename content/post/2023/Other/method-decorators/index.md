@@ -5,7 +5,7 @@ description: "**Method Decorators** --- `@staticmethod` 클래스의 인스턴�
 categories:
   - Other
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

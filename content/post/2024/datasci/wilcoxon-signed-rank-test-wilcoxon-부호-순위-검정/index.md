@@ -1,13 +1,13 @@
 ---
-title: "Wilcoxon signed-rank test (Wilcoxon 부호-순위 검정)"
+title: Wilcoxon signed-rank test (Wilcoxon 부호-순위 검정)
 date: 2024-05-19T00:00:00Z
-description: "Wilcoxon signed-rank test"
+description: Wilcoxon signed-rank test
 categories:
   - DataSci
 tags:
-  - legacy
-  - statistics
+  - _legacy
   - hypothesis-testing
+  - statistics
 fmContentType: hugo-content
 ---
 

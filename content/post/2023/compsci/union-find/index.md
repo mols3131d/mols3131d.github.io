@@ -1,11 +1,11 @@
 ---
 title: Union Find
 date: 2023-06-16T00:00:00Z
-description: "서로소 집합(Disjoint Set)의 합집합 연산과 찾기 연산을 효율적으로 관리하는 유니온-파인드 알고리즘의 원리와 파이썬 구현 정리"
+description: 서로소 집합(Disjoint Set)의 합집합 연산과 찾기 연산을 효율적으로 관리하는 유니온-파인드 알고리즘의 원리와 파이썬 구현 정리
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - algorithm
 fmContentType: hugo-content
 ---

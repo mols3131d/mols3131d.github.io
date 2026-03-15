@@ -1,11 +1,11 @@
 ---
-title: "Deviation"
+title: Deviation
 date: 2023-05-23T00:00:00Z
-description: "Deviation 편차 --- 편차는 각 데이터 포인트와 평균 간의 차이입니다. 통계학에서 이를 이용해 데이터 분포의 균일성(uniformity)을 측정합니다. Standard Deviation 표준편차 --- 분산의 제곱근으로, 분산과 마찬가지로 데이터 분포의 퍼짐 정도를 나타내..."
+description: Deviation 편차 --- 편차는 각 데이터 포인트와 평균 간의 차이입니다. 통계학에서 이를 이용해 데이터 분포의 균일성(uniformity)을 측정합니다. Standard Deviation 표준편차 --- 분산의 제곱근으로, 분산과 마찬가지로 데이터 분포의 퍼짐 정도를 나타내...
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

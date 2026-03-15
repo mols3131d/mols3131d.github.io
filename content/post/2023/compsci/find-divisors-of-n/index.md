@@ -1,14 +1,14 @@
 ---
 title: 자연수 n의 약수 찾기 알고리즘
 date: 2023-06-03T00:00:00Z
-description: "O(n)부터 O(sqrt(n))까지, 자연수의 모든 약수를 효율적으로 구하는 방법과 파이썬 예제 코드"
+description: O(n)부터 O(sqrt(n))까지, 자연수의 모든 약수를 효율적으로 구하는 방법과 파이썬 예제 코드
 categories:
   - CompSci
 tags:
+  - _legacy
   - algorithm
-  - python
   - mathematics
-  - legacy
+  - python
 fmContentType: hugo-content
 ---
 

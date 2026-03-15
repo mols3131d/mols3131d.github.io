@@ -1,11 +1,11 @@
 ---
-title: "Weight of Evidence"
+title: Weight of Evidence
 date: 2025-01-23T00:00:00Z
-description: "범주형 독립 변수와 종속 변수 간의 관계를 수치화하여 데이터의 정보 가치를 측정하는 Weight of Evidence(WoE) 기법을 정리합니다."
+description: 범주형 독립 변수와 종속 변수 간의 관계를 수치화하여 데이터의 정보 가치를 측정하는 Weight of Evidence(WoE) 기법을 정리합니다.
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
   - feature-engineering
 fmContentType: hugo-content
 ---

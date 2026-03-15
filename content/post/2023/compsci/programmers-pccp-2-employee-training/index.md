@@ -5,10 +5,10 @@ description: "프로그래머스 PCCP 모의고사 #2 신입사원 교육 문제
 categories:
   - CompSci
 tags:
+  - _legacy
   - coding-test
-  - python
   - heap
-  - legacy
+  - python
 fmContentType: hugo-content
 ---
 

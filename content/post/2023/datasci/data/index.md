@@ -1,11 +1,11 @@
 ---
-title: "Data"
+title: Data
 date: 2023-03-23T00:00:00Z
-description: "Data"
+description: Data
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

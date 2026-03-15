@@ -5,7 +5,7 @@ date: 2025-01-18T19:33:32+09:00
 categories:
   - Other
 tags:
-  - legacy
+  - _legacy
   - git
   - workflow
 fmContentType: hugo-content

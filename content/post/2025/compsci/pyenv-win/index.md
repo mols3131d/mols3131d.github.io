@@ -1,15 +1,15 @@
 ---
-title: "pyenv-win"
+title: pyenv-win
 date: 2025-12-30T00:00:00Z
-description: "Windows 환경에서 여러 버전의 파이썬을 쉽게 관리하고 전환할 수 있게 도와주는 pyenv-win 설치 및 사용 가이드"
+description: Windows 환경에서 여러 버전의 파이썬을 쉽게 관리하고 전환할 수 있게 도와주는 pyenv-win 설치 및 사용 가이드
 categories:
   - CompSci
 tags:
-  - legacy
-  - python
-  - windows
+  - _legacy
   - pyenv
+  - python
   - tool
+  - windows
 fmContentType: hugo-content
 ---
 

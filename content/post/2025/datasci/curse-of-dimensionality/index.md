@@ -1,14 +1,14 @@
 ---
-title: "차원의 저주 (Curse of Dimensionality)"
+title: 차원의 저주 (Curse of Dimensionality)
 date: 2025-09-08T00:00:00Z
-description: "고차원 데이터 분석에서 발생하는 희소성 문제, 휴즈 현상, 거리 집중 현상의 원인과 해결 방안 정리"
+description: 고차원 데이터 분석에서 발생하는 희소성 문제, 휴즈 현상, 거리 집중 현상의 원인과 해결 방안 정리
 categories:
   - DataSci
 tags:
-  - machine-learning
+  - _legacy
   - data-science
   - dimensionality-reduction
-  - legacy
+  - machine-learning
 fmContentType: hugo-content
 ---
 

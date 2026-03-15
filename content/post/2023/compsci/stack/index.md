@@ -5,7 +5,7 @@ description: "후입선출(LIFO: Last In First Out) 특성을 가지는 선형 �
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - data-structure
 fmContentType: hugo-content
 ---

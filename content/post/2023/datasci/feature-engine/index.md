@@ -1,14 +1,14 @@
 ---
-title: "Feature-engine"
+title: Feature-engine
 date: 2025-01-22T00:00:00Z
-description: "Scikit-learn과 호환되는 파이썬 라이브러리 Feature-engine 소개 및 에코시스템 확인"
+description: Scikit-learn과 호환되는 파이썬 라이브러리 Feature-engine 소개 및 에코시스템 확인
 categories:
   - DataSci
 tags:
-  - python
+  - _legacy
   - feature-engineering
   - machine-learning
-  - legacy
+  - python
 fmContentType: hugo-content
 ---
 

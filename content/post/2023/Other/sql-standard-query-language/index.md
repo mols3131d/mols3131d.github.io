@@ -5,7 +5,7 @@ description: SQL은 DBMS에게 요청을 보내는 선언형 질의 언어입니
 categories:
   - Other
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

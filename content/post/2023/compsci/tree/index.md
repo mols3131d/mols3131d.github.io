@@ -1,11 +1,11 @@
 ---
 title: Tree
 date: 2023-06-12T00:00:00Z
-description: "노드와 간선으로 이루어진 계층적 자료구조인 트리(Tree)의 정의, 특징 및 주요 용어 정리"
+description: 노드와 간선으로 이루어진 계층적 자료구조인 트리(Tree)의 정의, 특징 및 주요 용어 정리
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - data-structure
 fmContentType: hugo-content
 ---

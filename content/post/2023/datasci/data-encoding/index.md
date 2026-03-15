@@ -1,13 +1,13 @@
 ---
-title: "데이터 인코딩 (Data Encoding)의 필요성"
+title: 데이터 인코딩 (Data Encoding)의 필요성
 date: 2023-03-24T00:00:00Z
-description: "범주형 데이터를 머신러닝 모델이 이해할 수 있는 수치형 데이터로 변환하는 인코딩 과정의 중요성"
+description: 범주형 데이터를 머신러닝 모델이 이해할 수 있는 수치형 데이터로 변환하는 인코딩 과정의 중요성
 categories:
   - DataSci
 tags:
+  - _legacy
   - data-preprocessing
   - machine-learning
-  - legacy
 fmContentType: hugo-content
 ---
 

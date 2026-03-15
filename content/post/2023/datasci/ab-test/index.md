@@ -1,14 +1,14 @@
 ---
-title: "A/B Test (버킷 테스트)"
+title: A/B Test (버킷 테스트)
 date: 2023-06-11T00:00:00Z
-description: "두 옵션 간의 성능을 비교 분석하는 A/B 테스트의 개념, 다양한 통계적 검정 방법 및 Python 실습 코드 정리"
+description: 두 옵션 간의 성능을 비교 분석하는 A/B 테스트의 개념, 다양한 통계적 검정 방법 및 Python 실습 코드 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - ab-test
-  - statistics
   - hypothesis-testing
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

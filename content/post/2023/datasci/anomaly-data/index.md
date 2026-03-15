@@ -1,14 +1,14 @@
 ---
-title: "이상 데이터 (Anomaly Data vs Outlier)"
+title: 이상 데이터 (Anomaly Data vs Outlier)
 date: 2023-05-13T00:00:00Z
-description: "데이터 분석에서의 이상(Anomaly), 이상치(Outlier), 그리고 새로운 패턴(Novelty)의 차이점 이해"
+description: 데이터 분석에서의 이상(Anomaly), 이상치(Outlier), 그리고 새로운 패턴(Novelty)의 차이점 이해
 categories:
   - DataSci
 tags:
-  - data-analysis
+  - _legacy
   - anomaly
+  - data-analysis
   - outlier
-  - legacy
 fmContentType: hugo-content
 ---
 

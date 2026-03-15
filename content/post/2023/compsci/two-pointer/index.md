@@ -1,11 +1,11 @@
 ---
 title: Two Pointer
 date: 2023-06-18T00:00:00Z
-description: "Two Pointer는 주어진 배열 또는 리스트에서 두 개의 포인터를 사용하여 특정 작업을 수행하는 기법"
+description: Two Pointer는 주어진 배열 또는 리스트에서 두 개의 포인터를 사용하여 특정 작업을 수행하는 기법
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - algorithm
 fmContentType: hugo-content
 ---

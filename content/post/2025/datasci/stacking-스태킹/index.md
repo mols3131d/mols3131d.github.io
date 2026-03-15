@@ -1,13 +1,13 @@
 ---
-title: "Stacking (스태킹)"
+title: Stacking (스태킹)
 date: 2025-09-02T00:00:00Z
-description: "여러 모델의 예측 결과(Base Models)를 메타 모델(Meta Model)의 입력 데이터로 사용하여 최종 성능을 개선하는 앙상블 기법인 Stacking(스태킹)을 정리합니다."
+description: 여러 모델의 예측 결과(Base Models)를 메타 모델(Meta Model)의 입력 데이터로 사용하여 최종 성능을 개선하는 앙상블 기법인 Stacking(스태킹)을 정리합니다.
 categories:
   - DataSci
 tags:
-  - legacy
-  - machine-learning
+  - _legacy
   - ensemble
+  - machine-learning
 fmContentType: hugo-content
 ---
 

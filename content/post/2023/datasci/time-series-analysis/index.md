@@ -1,14 +1,14 @@
 ---
-title: "시계열 분석 기초 (Time Series Analysis)"
+title: 시계열 분석 기초 (Time Series Analysis)
 date: 2023-03-24T00:00:00Z
-description: "시간의 흐름에 따라 변하는 시계열 데이터의 구성 요소, 통계적 성질(정상성), 그리고 분석 모델(AR, I, MA) 정리"
+description: 시간의 흐름에 따라 변하는 시계열 데이터의 구성 요소, 통계적 성질(정상성), 그리고 분석 모델(AR, I, MA) 정리
 categories:
   - DataSci
 tags:
-  - statistics
+  - _legacy
   - analysis
   - data-science
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

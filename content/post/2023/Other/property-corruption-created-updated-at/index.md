@@ -6,8 +6,8 @@ lastmod: 2026-03-14T11:48:36.238Z
 categories:
   - Other
 tags:
+  - _legacy
   - blog
-  - legacy
 preview: ""
 draft: false
 math: false

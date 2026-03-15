@@ -1,14 +1,14 @@
 ---
-title: "파생 변수 (Derived Variable)"
+title: 파생 변수 (Derived Variable)
 date: 2023-03-24T00:00:00Z
-description: "기존 변수를 조합하거나 연산하여 새로운 변수를 생성하는 파생 변수의 개념과 다항식 전개(Polynomial Expansion) 방법 정리"
+description: 기존 변수를 조합하거나 연산하여 새로운 변수를 생성하는 파생 변수의 개념과 다항식 전개(Polynomial Expansion) 방법 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - data-science
   - feature-engineering
   - machine-learning
-  - legacy
 fmContentType: hugo-content
 ---
 

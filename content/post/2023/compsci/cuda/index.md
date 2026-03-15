@@ -1,14 +1,14 @@
 ---
 title: CUDA
 date: 2023-05-29T00:00:00Z
-description: "GPU 병렬 컴퓨팅을 위한 CUDA 프로그래밍 모델의 기초, CUDA Toolkit, cuDNN 설치 및 버전 확인 방법 정리"
+description: GPU 병렬 컴퓨팅을 위한 CUDA 프로그래밍 모델의 기초, CUDA Toolkit, cuDNN 설치 및 버전 확인 방법 정리
 categories:
   - CompSci
 tags:
-  - gpu
+  - _legacy
   - cuda
+  - gpu
   - nvidia
-  - legacy
 fmContentType: hugo-content
 ---
 

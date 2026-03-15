@@ -1,13 +1,13 @@
 ---
-title: "결측치 처리 (Handling Missing Data)"
+title: 결측치 처리 (Handling Missing Data)
 date: 2023-05-13T00:00:00Z
-description: "데이터 분석의 정확도를 떨어뜨리는 결측치(Missing Values)의 정의와 처리 중요성"
+description: 데이터 분석의 정확도를 떨어뜨리는 결측치(Missing Values)의 정의와 처리 중요성
 categories:
   - DataSci
 tags:
-  - data-preprocessing
+  - _legacy
   - analysis
-  - legacy
+  - data-preprocessing
 fmContentType: hugo-content
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: "Regularized Linear Regression (정규화 선형회귀)"
+title: Regularized Linear Regression (정규화 선형회귀)
 date: 2023-10-11T00:00:00Z
-description: "Regularized Linear Regression (정규화 선형회귀)"
+description: Regularized Linear Regression (정규화 선형회귀)
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

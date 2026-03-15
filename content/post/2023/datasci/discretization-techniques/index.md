@@ -1,13 +1,13 @@
 ---
 title: "이산화 (Discretization) 기법: pd.cut() vs pd.qcut()"
 date: 2023-03-24T00:00:00Z
-description: "연속형 수치 데이터를 불연속적인 구간으로 그룹화하여 모델의 오버피팅을 방지하고 인사이트를 강화하는 이산화 기법"
+description: 연속형 수치 데이터를 불연속적인 구간으로 그룹화하여 모델의 오버피팅을 방지하고 인사이트를 강화하는 이산화 기법
 categories:
   - DataSci
 tags:
+  - _legacy
   - data-science
   - processing
-  - legacy
 fmContentType: hugo-content
 ---
 

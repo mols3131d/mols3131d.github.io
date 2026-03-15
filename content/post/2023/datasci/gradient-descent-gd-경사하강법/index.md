@@ -1,11 +1,11 @@
 ---
-title: "Gradient Descent (GD, 경사하강법)"
+title: Gradient Descent (GD, 경사하강법)
 date: 2023-09-26T00:00:00Z
 description: "**Gradient Descent (GD, 경사하강법)** 최적화 문제의 해를 찾기 위한 알고리즘 중 하나. 경사하강법은 함수의 기울기를 이용하여 함수의 최솟값을 찾는 알고리즘. 경사하강법의 이름은 기울기(slope)와 하강(descent). 함수의 기울기를 이용하여 함수의 최솟값..."
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

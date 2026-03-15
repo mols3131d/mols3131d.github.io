@@ -1,13 +1,13 @@
 ---
-title: "확률의 기초 (Probability Basics)"
+title: 확률의 기초 (Probability Basics)
 date: 2023-07-27T00:00:00Z
-description: "조건부 확률, 독립/배반 사건 등 확률론의 핵심 개념과 확률 변수의 종류 정리"
+description: 조건부 확률, 독립/배반 사건 등 확률론의 핵심 개념과 확률 변수의 종류 정리
 categories:
   - DataSci
 tags:
-  - statistics
+  - _legacy
   - math
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

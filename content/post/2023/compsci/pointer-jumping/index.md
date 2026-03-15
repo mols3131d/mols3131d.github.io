@@ -1,11 +1,11 @@
 ---
 title: Pointer Jumping
 date: 2023-06-21T00:00:00Z
-description: "Pointer Jumping은 배열 또는 리스트에서 한 번에 여러 개의 요소를 건너뛰면서 탐색하는 기법."
+description: Pointer Jumping은 배열 또는 리스트에서 한 번에 여러 개의 요소를 건너뛰면서 탐색하는 기법.
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - algorithm
 fmContentType: hugo-content
 ---

@@ -1,14 +1,14 @@
 ---
 title: "BFS: 너비 우선 탐색 (Breadth-First Search)"
 date: 2023-06-16T00:00:00Z
-description: "큐를 활용하여 가장 가까운 노드부터 탐색하는 BFS 알고리즘의 원리와 파이썬 구현 가이드"
+description: 큐를 활용하여 가장 가까운 노드부터 탐색하는 BFS 알고리즘의 원리와 파이썬 구현 가이드
 categories:
   - CompSci
 tags:
+  - _legacy
   - algorithm
   - graph
   - python
-  - legacy
 fmContentType: hugo-content
 ---
 

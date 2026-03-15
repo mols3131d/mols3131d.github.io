@@ -1,13 +1,13 @@
 ---
-title: "편향-분산 분해 (Bias-Variance Decomposition)"
+title: 편향-분산 분해 (Bias-Variance Decomposition)
 date: 2023-10-11T00:00:00Z
-description: "모델의 오차를 편향, 분산, 그리고 줄일 수 없는 노이즈로 분해하여 이해하는 머신러닝 핵심 개념"
+description: 모델의 오차를 편향, 분산, 그리고 줄일 수 없는 노이즈로 분해하여 이해하는 머신러닝 핵심 개념
 categories:
   - DataSci
 tags:
-  - machine-learning
+  - _legacy
   - data-science
-  - legacy
+  - machine-learning
 fmContentType: hugo-content
 ---
 

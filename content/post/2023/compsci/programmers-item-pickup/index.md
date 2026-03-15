@@ -1,14 +1,14 @@
 ---
 title: 아이템 줍기 [프로그래머스 Python3]
 date: 2023-07-09T00:00:00Z
-description: "사각형 테두리를 따라 최단 경로를 찾는 아이템 줍기 문제 풀이. 맵 2배 확장을 통한 경로 끊김 현상 해결 방법 정리"
+description: 사각형 테두리를 따라 최단 경로를 찾는 아이템 줍기 문제 풀이. 맵 2배 확장을 통한 경로 끊김 현상 해결 방법 정리
 categories:
   - CompSci
 tags:
-  - coding-test
+  - _legacy
   - algorithm
+  - coding-test
   - python
-  - legacy
 fmContentType: hugo-content
 ---
 

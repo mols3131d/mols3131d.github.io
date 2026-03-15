@@ -1,13 +1,13 @@
 ---
 title: 알고리즘 평가와 Big-O 표기법
 date: 2023-06-16T00:00:00Z
-description: "시간 복잡도와 공간 복잡도를 통해 알고리즘의 효율성을 평가하는 방법과 Big-O 표기법의 개념 정리"
+description: 시간 복잡도와 공간 복잡도를 통해 알고리즘의 효율성을 평가하는 방법과 Big-O 표기법의 개념 정리
 categories:
   - CompSci
 tags:
+  - _legacy
   - algorithm
   - computer-science
-  - legacy
 fmContentType: hugo-content
 ---
 

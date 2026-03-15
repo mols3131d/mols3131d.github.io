@@ -1,14 +1,14 @@
 ---
 title: 큰 수 만들기 [프로그래머스 Python3]
 date: 2023-06-20T00:00:00Z
-description: "그리디(Greedy) 기법을 활용하여 주어진 숫자에서 k개의 수를 제거해 가장 큰 수를 만드는 알고리즘 풀이"
+description: 그리디(Greedy) 기법을 활용하여 주어진 숫자에서 k개의 수를 제거해 가장 큰 수를 만드는 알고리즘 풀이
 categories:
   - CompSci
 tags:
+  - _legacy
   - coding-test
   - greedy
   - python
-  - legacy
 fmContentType: hugo-content
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: "데이터 스케일링 (Data Scaling) 기법 총정리"
+title: 데이터 스케일링 (Data Scaling) 기법 총정리
 date: 2023-03-24T00:00:00Z
-description: "Standardization, Min-Max, Robust Scaling의 차이점과 모델 성능 향상을 위한 스케일링 전략 가이드"
+description: Standardization, Min-Max, Robust Scaling의 차이점과 모델 성능 향상을 위한 스케일링 전략 가이드
 categories:
   - DataSci
 tags:
+  - _legacy
   - data-preprocessing
   - machine-learning
-  - legacy
 fmContentType: hugo-content
 ---
 

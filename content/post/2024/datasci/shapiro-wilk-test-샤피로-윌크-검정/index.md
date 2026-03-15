@@ -1,13 +1,13 @@
 ---
-title: "Shapiro-Wilk test (샤피로-윌크 검정)"
+title: Shapiro-Wilk test (샤피로-윌크 검정)
 date: 2024-05-17T00:00:00Z
 description: ""
 categories:
   - DataSci
 tags:
-  - legacy
-  - statistics
+  - _legacy
   - normality-test
+  - statistics
 fmContentType: hugo-content
 ---
 

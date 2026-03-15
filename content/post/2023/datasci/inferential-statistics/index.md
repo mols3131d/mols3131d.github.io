@@ -1,11 +1,11 @@
 ---
-title: "Inferential Statistics"
+title: Inferential Statistics
 date: 2023-03-23T00:00:00Z
-description: "Inferential Statistics"
+description: Inferential Statistics
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

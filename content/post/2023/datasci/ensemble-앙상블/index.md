@@ -1,11 +1,11 @@
 ---
-title: "Ensemble (앙상블)"
+title: Ensemble (앙상블)
 date: 2023-03-23T00:00:00Z
-description: "앙상블 학습은 여러 개의 약 분류기를 결합하여 강력한 예측 모델을 만드는 기법입니다. 배깅(Bagging)과 부스팅(Boosting)의 개념, 원리, 그리고 주요 차이점을 상세히 비교합니다."
+description: 앙상블 학습은 여러 개의 약 분류기를 결합하여 강력한 예측 모델을 만드는 기법입니다. 배깅(Bagging)과 부스팅(Boosting)의 개념, 원리, 그리고 주요 차이점을 상세히 비교합니다.
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

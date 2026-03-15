@@ -1,13 +1,13 @@
 ---
 title: 퀵 정렬 (Quick Sort) 원리와 구현
 date: 2025-04-20T00:00:00Z
-description: "분할 정복 기반의 퀵 정렬 작동 원리와 파이썬 구현 기법 (Lomuto Partition 등)"
+description: 분할 정복 기반의 퀵 정렬 작동 원리와 파이썬 구현 기법 (Lomuto Partition 등)
 categories:
   - CompSci
 tags:
+  - _legacy
   - algorithm
   - sorting
-  - legacy
 fmContentType: hugo-content
 ---
 

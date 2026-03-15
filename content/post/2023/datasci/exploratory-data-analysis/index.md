@@ -1,13 +1,13 @@
 ---
 title: "EDA: 탐색적 데이터 분석 (Exploratory Data Analysis)"
 date: 2023-03-24T00:00:00Z
-description: "객관적이면서도 유연하게 데이터를 관찰하여 패턴과 가설을 발견하는 EDA의 개념과 과정 정리"
+description: 객관적이면서도 유연하게 데이터를 관찰하여 패턴과 가설을 발견하는 EDA의 개념과 과정 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - eda
   - statistics
-  - legacy
 fmContentType: hugo-content
 ---
 

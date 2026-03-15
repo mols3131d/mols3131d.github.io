@@ -5,7 +5,7 @@ description: Python3 Positional-Only Arguments
 categories:
   - Other
 tags:
-  - legacy
+  - _legacy
   - python
 fmContentType: hugo-content
 ---

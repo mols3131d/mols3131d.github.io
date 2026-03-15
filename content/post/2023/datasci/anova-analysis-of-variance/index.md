@@ -1,14 +1,14 @@
 ---
-title: "분산분석 (ANOVA, Analysis of Variance)"
+title: 분산분석 (ANOVA, Analysis of Variance)
 date: 2023-07-29T00:00:00Z
-description: "세 개 이상의 집단 간 평균 차이를 검정하는 분산분석(ANOVA)의 유형별(일원, 이원, 다변량) 개념과 Python 실습"
+description: 세 개 이상의 집단 간 평균 차이를 검정하는 분산분석(ANOVA)의 유형별(일원, 이원, 다변량) 개념과 Python 실습
 categories:
   - DataSci
 tags:
-  - statistics
+  - _legacy
   - anova
   - hypothesis-testing
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

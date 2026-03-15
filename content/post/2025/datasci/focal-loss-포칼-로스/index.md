@@ -1,11 +1,11 @@
 ---
-title: "Focal Loss (포칼 로스)"
+title: Focal Loss (포칼 로스)
 date: 2025-09-07T00:00:00Z
-description: "객체 탐지 등 극심한 클래스 불균형 상황에서 어려운 샘플(hard examples)에 더 집중할 수 있도록 고안된 Focal Loss의 작동 원리를 정리합니다."
+description: 객체 탐지 등 극심한 클래스 불균형 상황에서 어려운 샘플(hard examples)에 더 집중할 수 있도록 고안된 Focal Loss의 작동 원리를 정리합니다.
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
   - loss-function
   - machine-learning
 fmContentType: hugo-content

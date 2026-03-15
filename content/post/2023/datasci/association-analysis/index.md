@@ -1,14 +1,14 @@
 ---
-title: "연관 분석 (Association Analysis)"
+title: 연관 분석 (Association Analysis)
 date: 2023-09-19T00:00:00Z
-description: "장바구니 분석으로 알려진 연관 규칙 분석의 평가지표(지지도, 신뢰도, 향상도)와 주요 알고리즘 정리"
+description: 장바구니 분석으로 알려진 연관 규칙 분석의 평가지표(지지도, 신뢰도, 향상도)와 주요 알고리즘 정리
 categories:
   - DataSci
 tags:
+  - _legacy
+  - apriori
   - association-analysis
   - data-mining
-  - apriori
-  - legacy
 fmContentType: hugo-content
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: "Central Limit Theorem (CLT, 중심극한정리)"
+title: Central Limit Theorem (CLT, 중심극한정리)
 date: 2023-10-09T00:00:00Z
-description: "표본의 크기가 커질 때 표본 평균의 분포가 모집단의 분포와 상관없이 정규분포에 근사한다는 중심극한정리의 개념과 성질"
+description: 표본의 크기가 커질 때 표본 평균의 분포가 모집단의 분포와 상관없이 정규분포에 근사한다는 중심극한정리의 개념과 성질
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

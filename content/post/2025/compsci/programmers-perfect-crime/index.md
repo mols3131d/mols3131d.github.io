@@ -5,8 +5,8 @@ description: DP를 활용하여 흔적을 최소화하는 완전범죄 문제 �
 categories:
   - CompSci
 tags:
+  - _legacy
   - coding-test
-  - legacy
 fmContentType: hugo-content
 ---
 

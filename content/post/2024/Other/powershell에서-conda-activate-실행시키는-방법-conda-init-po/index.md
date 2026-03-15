@@ -5,9 +5,9 @@ description: ""
 categories:
   - Other
 tags:
-  - powershell
+  - _legacy
   - conda
-  - legacy
+  - powershell
 fmContentType: hugo-content
 ---
 

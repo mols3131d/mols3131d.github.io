@@ -1,13 +1,13 @@
 ---
-title: "부트스트랩 (Bootstrap) 샘플링 원리"
+title: 부트스트랩 (Bootstrap) 샘플링 원리
 date: 2023-05-29T00:00:00Z
-description: "복원 추출을 반복하여 모수를 추정하고 신뢰구간을 확보하는 강력한 비모수 통계 기법인 부트스트랩 이해하기"
+description: 복원 추출을 반복하여 모수를 추정하고 신뢰구간을 확보하는 강력한 비모수 통계 기법인 부트스트랩 이해하기
 categories:
   - DataSci
 tags:
-  - statistics
+  - _legacy
   - analysis
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

@@ -5,7 +5,7 @@ description: ""
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - data-structure
 fmContentType: hugo-content
 ---

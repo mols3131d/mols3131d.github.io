@@ -1,11 +1,11 @@
 ---
 title: DFS, Depth-First Search
 date: 2023-06-16T00:00:00Z
-description: "깊이 우선 탐색"
+description: 깊이 우선 탐색
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - algorithm
 fmContentType: hugo-content
 ---

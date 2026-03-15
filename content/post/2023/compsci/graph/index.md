@@ -1,14 +1,14 @@
 ---
 title: 그래프 (Graph)
 date: 2023-06-16T00:00:00Z
-description: "정점(Vertex)과 간선(Edge)으로 구성된 자료구조인 그래프의 개념과 인접 리스트, 인접 행렬 표현 방법 및 시각화 실습"
+description: 정점(Vertex)과 간선(Edge)으로 구성된 자료구조인 그래프의 개념과 인접 리스트, 인접 행렬 표현 방법 및 시각화 실습
 categories:
   - CompSci
 tags:
-  - data-structure
+  - _legacy
   - algorithm
+  - data-structure
   - python
-  - legacy
 fmContentType: hugo-content
 ---
 

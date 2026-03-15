@@ -1,14 +1,14 @@
 ---
 title: 데이터베이스 (DataBase, DB)
 date: 2023-04-10T00:00:00Z
-description: "데이터베이스의 정의와 관리 시스템(DBMS), 그리고 계층형, 네트워크형, 관계형 데이터베이스 모델의 특징 정리"
+description: 데이터베이스의 정의와 관리 시스템(DBMS), 그리고 계층형, 네트워크형, 관계형 데이터베이스 모델의 특징 정리
 categories:
   - CompSci
 tags:
+  - _legacy
   - database
   - dbms
   - sql
-  - legacy
 fmContentType: hugo-content
 ---
 

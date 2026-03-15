@@ -1,14 +1,14 @@
 ---
-title: "상관 분석 (Correlation Analysis)"
+title: 상관 분석 (Correlation Analysis)
 date: 2023-03-23T00:00:00Z
-description: "두 변수 간의 선형적 관계를 강도와 방향으로 수치화하는 상관 분석의 개념, 공분산, 피어슨 및 스피언먼 상관계수 비교"
+description: 두 변수 간의 선형적 관계를 강도와 방향으로 수치화하는 상관 분석의 개념, 공분산, 피어슨 및 스피언먼 상관계수 비교
 categories:
   - DataSci
 tags:
-  - statistics
+  - _legacy
   - correlation
   - covariance
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

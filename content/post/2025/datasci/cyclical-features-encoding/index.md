@@ -1,13 +1,13 @@
 ---
-title: "순환형 피처 인코딩 (Cyclical Features Encoding)"
+title: 순환형 피처 인코딩 (Cyclical Features Encoding)
 date: 2025-01-22T00:00:00Z
-description: "시간, 요일 같이 끝과 시작이 연결된 순환적 성격을 가진 데이터의 특징을 유지하며 인코딩하는 방법"
+description: 시간, 요일 같이 끝과 시작이 연결된 순환적 성격을 가진 데이터의 특징을 유지하며 인코딩하는 방법
 categories:
   - DataSci
 tags:
-  - feature-engineering
+  - _legacy
   - deep-learning
-  - legacy
+  - feature-engineering
 fmContentType: hugo-content
 ---
 

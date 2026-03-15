@@ -1,11 +1,11 @@
 ---
 title: KCM Travel@백준 Python3 풀이
 date: 2024-12-28T00:00:00Z
-description: "KCM Travel 백준 Python3 풀이"
+description: KCM Travel 백준 Python3 풀이
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - coding-test
 fmContentType: hugo-content
 ---

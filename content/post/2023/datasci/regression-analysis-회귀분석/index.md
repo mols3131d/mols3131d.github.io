@@ -1,11 +1,11 @@
 ---
-title: "Regression Analysis (회귀분석)"
+title: Regression Analysis (회귀분석)
 date: 2023-07-29T00:00:00Z
-description: "회귀분석"
+description: 회귀분석
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

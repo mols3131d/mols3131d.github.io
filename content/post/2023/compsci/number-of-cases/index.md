@@ -1,13 +1,13 @@
 ---
 title: 경우의 수 (Number of Cases)
 date: 2023-06-11T00:00:00Z
-description: "순열, 조합, 이항 계수 등 알고리즘 문제 풀이에 필수적인 경우의 수 공식 요약"
+description: 순열, 조합, 이항 계수 등 알고리즘 문제 풀이에 필수적인 경우의 수 공식 요약
 categories:
   - CompSci
 tags:
+  - _legacy
   - algorithm
   - math
-  - legacy
 fmContentType: hugo-content
 ---
 

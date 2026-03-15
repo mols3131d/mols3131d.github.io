@@ -5,6 +5,6 @@ image:
 paginate: 20
 # Badge style
 style:
-  background: "#264653"
+  background: "#10B981"
   color: "#fff"
 ---

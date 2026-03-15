@@ -5,7 +5,7 @@ date: 2025-01-18
 categories:
   - Other
 tags:
-  - legacy
+  - _legacy
   - git
   - troubleshooting
 fmContentType: hugo-content

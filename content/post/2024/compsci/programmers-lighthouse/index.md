@@ -5,9 +5,9 @@ description: 프로그래머스 레벨 3 '등대' 문제 풀이; 트리를 이�
 categories:
   - CompSci
 tags:
+  - _legacy
   - algorithm
   - coding-test
-  - legacy
   - tree
 fmContentType: hugo-content
 ---

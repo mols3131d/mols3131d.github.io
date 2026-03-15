@@ -5,10 +5,10 @@ date: 2025-01-28
 categories:
   - Other
 tags:
-  - legacy
-  - python
-  - poetry
+  - _legacy
   - dependency-management
+  - poetry
+  - python
 fmContentType: hugo-content
 ---
 

@@ -1,4 +1,6 @@
-/* Two-column layout for archives page */
+/* 
+=== Two-column layout for archives page === 
+*/
 @media (min-width: 1024px) {
     .article-list--compact {
         display: grid;
@@ -17,16 +19,21 @@
     }
 }
 
+
+/* 
+=== 한글 지원 코딩 폰트 ===
+*/
 @font-face {
-    font-family: "JetBrains Mono Hangul NL";
-    src: url("/fonts/JetBrainsMonoHangulNL-Regular.woff2") format("woff2");
+    font-family: "CodexMono-KR-Hermes";
+    src: url("/fonts/CodexMono-KR-Hermes.woff2") format("woff2");
     font-weight: 400;
     font-display: swap;
 }
 
 :root {
-    --code-font-family: "JetBrains Mono Hangul NL", monospace;
+    --code-font-family: "CodexMono-KR-Hermes", monospace;
 }
+
 
 .chroma .lnt {
     -webkit-user-select: none !important;
@@ -71,27 +78,62 @@
     }
 }
 
-/* 전체 스크롤바 너비 설정 */
-::-webkit-scrollbar {
-    width: 10px;
-    /* 세로 스크롤바 너비 */
-    height: 10px;
-    /* 가로 스크롤바 높이 */
+/* 표준 속성 (파이어폭스 대응) */
+* {
+    scrollbar-width: thin;
+    // scrollbar-color: [핸들색] [트랙색];
+    scrollbar-color: #888 transparent;
 }
 
-/* 스크롤바 트랙(바탕) 디자인 */
+/* WebKit 기반 (크롬, 사파리, 엣지) */
+::-webkit-scrollbar {
+    width: 10px;
+    /* 조금 더 여유 있는 너비 */
+    height: 10px;
+}
+
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: rgba(0, 0, 0, 0.05);
     border-radius: 10px;
 }
 
-/* 스크롤바 핸들(움직이는 부분) 디자인 */
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 10px;
+    border: 2px solid transparent;
+    /* 트랙과의 여백을 주기 위해 border 활용 */
+    background-clip: padding-box;
+    /* border와 간격을 띄움 */
 }
 
-/* 마우스 올렸을 때 핸들 색상 변경 */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #666;
+}
+
+/* 클릭 시 피드백 추가 */
+::-webkit-scrollbar-thumb:active {
+    background: #444;
+}
+
+/* 다크 모드 대응 전용 설정 */
+html[data-scheme="dark"] {
+    * {
+        scrollbar-color: #555 transparent;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.05);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #555;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #777;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        background: #999;
+    }
 }

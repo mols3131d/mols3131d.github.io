@@ -5,9 +5,9 @@ date: 2024-12-30
 categories:
   - Other
 tags:
+  - _legacy
   - python
   - recursion-limit
-  - legacy
 preview: null
 draft: false
 math: false

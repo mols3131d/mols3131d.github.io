@@ -1,14 +1,14 @@
 ---
-title: "이상 탐지 (Anomaly Detection) 방법론"
+title: 이상 탐지 (Anomaly Detection) 방법론
 date: 2023-05-15T00:00:00Z
-description: "IQR, 표준편차 등 통계적 기법부터 머신러닝 모델까지 다양한 이상 탐지 기법 정리"
+description: IQR, 표준편차 등 통계적 기법부터 머신러닝 모델까지 다양한 이상 탐지 기법 정리
 categories:
   - DataSci
 tags:
-  - statistics
+  - _legacy
   - anomaly-detection
   - machine-learning
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: "로그 변환 (Log Transformation)"
+title: 로그 변환 (Log Transformation)
 date: 2023-03-24T00:00:00Z
-description: "데이터 분포의 왜도를 줄여 표준정규분포에 가깝게 만들기 위한 로그 변환의 목적과 효과, 주의사항 정리"
+description: 데이터 분포의 왜도를 줄여 표준정규분포에 가깝게 만들기 위한 로그 변환의 목적과 효과, 주의사항 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - data-science
-  - statistics
   - feature-engineering
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

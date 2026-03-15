@@ -5,7 +5,7 @@ description: "Generator --- Python에서 generator는 iterator를 생성하는 �
 categories:
   - Other
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

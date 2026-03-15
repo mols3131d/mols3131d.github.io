@@ -1,11 +1,11 @@
 ---
 title: Heap
 date: 2023-06-12T00:00:00Z
-description: "최댓값과 최솟값을 빠르게 찾기 위한 완전 이진 트리 기반 자료구조인 힙(Heap)의 개념과 특징 정리"
+description: 최댓값과 최솟값을 빠르게 찾기 위한 완전 이진 트리 기반 자료구조인 힙(Heap)의 개념과 특징 정리
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - data-structure
 fmContentType: hugo-content
 ---

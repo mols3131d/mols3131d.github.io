@@ -5,10 +5,10 @@ description: 가중치가 있는 유향 그래프에서 하나의 시작 정점�
 categories:
   - CompSci
 tags:
+  - _legacy
   - algorithm
-  - graph
   - dijkstra
-  - legacy
+  - graph
 fmContentType: hugo-content
 ---
 

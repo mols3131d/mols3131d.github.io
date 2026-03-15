@@ -1,11 +1,11 @@
 ---
-title: "Cluster Analysis"
+title: Cluster Analysis
 date: 2023-05-17T00:00:00Z
-description: "비지도 학습의 대표적인 기법인 군집 분석(Clustering)의 개념, 계층적/분할적 방법론, 그리고 실루엣 계수 등 평가지표 정리"
+description: 비지도 학습의 대표적인 기법인 군집 분석(Clustering)의 개념, 계층적/분할적 방법론, 그리고 실루엣 계수 등 평가지표 정리
 categories:
   - DataSci
 tags:
-  - legacy
+  - _legacy
 fmContentType: hugo-content
 ---
 

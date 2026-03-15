@@ -1,12 +1,12 @@
 ---
-title: "표본과 표본조사 (Sample & Sampling Survey)"
+title: 표본과 표본조사 (Sample & Sampling Survey)
 date: 2023-07-27T00:00:00Z
-description: "모집단에서 추출한 표본을 통해 현상을 분석하는 표본조사의 개념과 신뢰수준, 오차범위에 대한 정리"
+description: 모집단에서 추출한 표본을 통해 현상을 분석하는 표본조사의 개념과 신뢰수준, 오차범위에 대한 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - statistics
-  - legacy
 fmContentType: hugo-content
 ---
 

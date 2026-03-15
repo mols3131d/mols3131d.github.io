@@ -1,12 +1,12 @@
 ---
-title: "통계적 편향의 종류와 원인 (Statistical Bias)"
+title: 통계적 편향의 종류와 원인 (Statistical Bias)
 date: 2023-05-27T00:00:00Z
-description: "선택 편향, 추정량 편향 등 데이터 분석 프로세스에서 발생하는 체계적 오류(Bias)에 대한 기초 정리"
+description: 선택 편향, 추정량 편향 등 데이터 분석 프로세스에서 발생하는 체계적 오류(Bias)에 대한 기초 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - statistics
-  - legacy
 fmContentType: hugo-content
 ---
 

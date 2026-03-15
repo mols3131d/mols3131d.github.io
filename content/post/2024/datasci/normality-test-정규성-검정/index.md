@@ -1,13 +1,13 @@
 ---
-title: "Normality Test (정규성 검정)"
+title: Normality Test (정규성 검정)
 date: 2024-05-17T00:00:00Z
-description: "Normality Test"
+description: Normality Test
 categories:
   - DataSci
 tags:
-  - legacy
-  - statistics
+  - _legacy
   - normality-test
+  - statistics
 fmContentType: hugo-content
 ---
 

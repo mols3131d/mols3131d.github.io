@@ -5,9 +5,9 @@ description: 각 노드가 최대 두 개의 자식을 가지는 트리의 정�
 categories:
   - CompSci
 tags:
-  - legacy
-  - data-structure
+  - _legacy
   - algorithm
+  - data-structure
 fmContentType: hugo-content
 ---
 

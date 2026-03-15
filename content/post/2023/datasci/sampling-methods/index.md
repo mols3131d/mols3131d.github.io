@@ -1,12 +1,12 @@
 ---
-title: "다양한 표본추출 방법 (Sampling Methods)"
+title: 다양한 표본추출 방법 (Sampling Methods)
 date: 2023-07-27T00:00:00Z
-description: "단순 랜덤 추출부터 층화 추출까지, 통계적 분석을 위한 다양한 표본 추출 기법 정리"
+description: 단순 랜덤 추출부터 층화 추출까지, 통계적 분석을 위한 다양한 표본 추출 기법 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - statistics
-  - legacy
 fmContentType: hugo-content
 ---
 

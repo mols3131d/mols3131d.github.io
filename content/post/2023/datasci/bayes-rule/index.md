@@ -1,13 +1,13 @@
 ---
-title: "베이즈 정리 (Bayes' Theorem)"
+title: 베이즈 정리 (Bayes' Theorem)
 date: 2023-10-11T00:00:00Z
-description: "사전 확률과 데이터를 결합하여 사후 확률을 추정하는 베이즈 정리의 기본 원리"
+description: 사전 확률과 데이터를 결합하여 사후 확률을 추정하는 베이즈 정리의 기본 원리
 categories:
   - DataSci
 tags:
-  - statistics
+  - _legacy
   - bayesian
-  - legacy
+  - statistics
 fmContentType: hugo-content
 ---
 

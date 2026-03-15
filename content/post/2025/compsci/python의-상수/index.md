@@ -1,12 +1,12 @@
 ---
 title: Python의 상수
 date: 2025-08-22T00:00:00Z
-description: "파이썬에서 @property 데코레이터와 __slots__를 사용하여 상수(Constant)와 유사한 동작을 구현하는 방법"
+description: 파이썬에서 @property 데코레이터와 __slots__를 사용하여 상수(Constant)와 유사한 동작을 구현하는 방법
 categories:
   - CompSci
 tags:
+  - _legacy
   - python
-  - legacy
 fmContentType: hugo-content
 ---
 

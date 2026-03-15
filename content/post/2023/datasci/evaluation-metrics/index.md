@@ -1,14 +1,14 @@
 ---
-title: "성능 평가 지표 (Evaluation Metrics)"
+title: 성능 평가 지표 (Evaluation Metrics)
 date: 2023-03-23T00:00:00Z
-description: "분류(Classification)와 회귀(Regression) 모델의 성능을 평가하기 위한 주요 지표(정확도, 정밀도, 재현율, RMSE 등) 정리"
+description: 분류(Classification)와 회귀(Regression) 모델의 성능을 평가하기 위한 주요 지표(정확도, 정밀도, 재현율, RMSE 등) 정리
 categories:
   - DataSci
 tags:
+  - _legacy
+  - calibration
   - machine-learning
   - statistics
-  - calibration
-  - legacy
 fmContentType: hugo-content
 ---
 

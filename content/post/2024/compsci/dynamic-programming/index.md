@@ -5,8 +5,8 @@ description: 복잡한 문제를 작은 부분 문제로 나누어 해결하는 
 categories:
   - CompSci
 tags:
+  - _legacy
   - algorithm
-  - legacy
 fmContentType: hugo-content
 ---
 

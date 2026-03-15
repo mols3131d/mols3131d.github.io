@@ -1,13 +1,13 @@
 ---
-title: "이상치 처리 (Outlier Processing) 가이드"
+title: 이상치 처리 (Outlier Processing) 가이드
 date: 2023-05-27T00:00:00Z
-description: "데이터 분포를 왜곡하는 이상치를 탐지하는 기준과 삭제, 대치, 스케일링 등의 처리 기법 정리"
+description: 데이터 분포를 왜곡하는 이상치를 탐지하는 기준과 삭제, 대치, 스케일링 등의 처리 기법 정리
 categories:
   - DataSci
 tags:
+  - _legacy
   - data-preprocessing
   - statistics
-  - legacy
 fmContentType: hugo-content
 ---
 

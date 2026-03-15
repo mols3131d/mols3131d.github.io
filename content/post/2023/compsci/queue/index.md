@@ -5,7 +5,7 @@ description: "선입선출(FIFO: First In First Out) 특성을 가지는 대기�
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - data-structure
 fmContentType: hugo-content
 ---

@@ -1,11 +1,11 @@
 ---
 title: Floyd-Warshall Algorithm
 date: 2023-12-23T00:00:00Z
-description: "그래프의 모든 정점 쌍 간의 최단 경로를 구하는 플로이드-워셜 알고리즘의 원리와 파이썬 구현 분석"
+description: 그래프의 모든 정점 쌍 간의 최단 경로를 구하는 플로이드-워셜 알고리즘의 원리와 파이썬 구현 분석
 categories:
   - CompSci
 tags:
-  - legacy
+  - _legacy
   - algorithm
 fmContentType: hugo-content
 ---

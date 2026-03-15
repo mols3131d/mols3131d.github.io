@@ -1,14 +1,14 @@
 ---
-title: "Chi-Square Test (카이제곱 검정)"
+title: Chi-Square Test (카이제곱 검정)
 date: 2024-11-26T00:00:00Z
-description: "범주형 데이터 분석을 위한 카이제곱 검정의 가설 설정, 통계량 계산 및 Python 실습 코드 정리"
+description: 범주형 데이터 분석을 위한 카이제곱 검정의 가설 설정, 통계량 계산 및 Python 실습 코드 정리
 categories:
   - DataSci
 tags:
-  - statistics
-  - hypothesis-testing
+  - _legacy
   - chi-square
-  - legacy
+  - hypothesis-testing
+  - statistics
 fmContentType: hugo-content
 ---
 

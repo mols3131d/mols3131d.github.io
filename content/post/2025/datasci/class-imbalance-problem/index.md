@@ -1,13 +1,13 @@
 ---
-title: "클래스 불균형 문제 (Class Imbalance Problem)"
+title: 클래스 불균형 문제 (Class Imbalance Problem)
 date: 2025-09-03T00:00:00Z
-description: "사기 거래 탐지 등 비대칭적인 비중의 데이터를 학습할 때 발생하는 모델 편향과 이를 해결하기 위한 샘플링 및 가중치 전략"
+description: 사기 거래 탐지 등 비대칭적인 비중의 데이터를 학습할 때 발생하는 모델 편향과 이를 해결하기 위한 샘플링 및 가중치 전략
 categories:
   - DataSci
 tags:
-  - machine-learning
+  - _legacy
   - data-science
-  - legacy
+  - machine-learning
 fmContentType: hugo-content
 ---
 
